@@ -1,0 +1,321 @@
+\documentclass[12pt,titlepage,twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[titletoc]{appendix}
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage{epstopdf}
+\usepackage{wrapfig}
+\usepackage{comment}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{eqnarray}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+%\addcontentsline{toc}{chapter}{\listfigurename}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+\usepackage{fixltx2e}
+\usepackage{nomencl}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage[toc,page]{appendix}
+\usepackage{fancyhdr}
+\usepackage[top = 2cm, bottom = 2cm, outer=2 cm, inner = 3cm]{geometry}
+\usepackage{footnote}
+\usepackage{mathtools}
+
+%\usepackage{blockarray}% http://ctan.org/pkg/blkarray
+%\newcommand{\matindex}[1]{\mbox{\scriptsize#1}}% Matrix index
+
+
+\DeclareMathOperator{\arccosh}{arccosh}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\DeclareMathOperator{\arctanh}{arctanh}
+\DeclareMathOperator{\arctg}{arctg}
+%%\captionsetup[table]{font={stretch=1.2}}     %% change 1.2 as you like
+\captionsetup[figure]{font={stretch=1.5}} 
+
+\renewcommand{\listtablename}{Seznam tabulek}
+\renewcommand{\listfigurename}{Seznam obrázků}
+
+%\usepackage{stdpage}
+\let\abbrev\nomenclature
+\renewcommand{\nomname}{List of Abbreviations}
+\setlength{\nomlabelwidth}{.25\hsize}
+\renewcommand{\nomlabel}[1]{#1 \dotfill}
+\setlength{\nomitemsep}{.2cm} \makenomenclature
+\newcommand{\Listofabbrev}{
+\printnomenclature
+\newpage
+}
+%%%%%%% dvakrat prelozit build.tex a pak spustit makeindex build.nlo -s nomencl.ist -o build.nls a znovu prelozit build.tex %%%%%%%-\parsep
+
+\newcommand{\konv}[1]{\ensuremath{\stackrel{\rm #1}{\longrightarrow}}}
+%\topmargin      -3cm \oddsidemargin  -1.5cm \textwidth      19cm
+%\textheight     26cm
+
+%************************************************%												%
+%			Moje nastavení rozměrů				%
+%												%
+%************************************************
+%\hoffset -1.54cm
+%\voffset -0.04pt
+%\evensidemargin 3 cm
+%\oddsidemargin 2 cm
+\topmargin -.5cm
+
+
+\textheight 217mm
+%\textwidth 165mm
+
+%\renewcommand{\baselinestretch}{1.5}
+
+%************************************
+%			REFERENCE				%
+%************************************
+\bibliographystyle{unsrt}
+
+
+%************************************************%												%
+%		Moje nastavení paragraph				%
+%												%
+%************************************************
+% namísto subsubsubparagraph; není v obsahu, potřeba mezitím enter, jinak to nehodí číslo!
+
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\small\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{1.0ex plus 0ex minus -.5ex}{0.0ex plus 0.0ex}
+%{\normalfont\normalsize\bfseries\itshape}
+%***********************************
+%
+
+%************************************
+%		Nedělitelná slova			%
+%************************************
+%\hyphenation{Drucker-Prager}
+%\hyphenation{Mohr-Coulomb}
+
+
+
+\renewcommand{\footnoterule}{%
+	\kern -1pt
+	\hrule width \textwidth height 1pt
+	\kern 2pt
+}
+
+\begin{document}
+
+
+
+
+
+\thispagestyle{empty}
+\begin{center}\setstretch{1.0}{
+		{\LARGE \textsc CZECH TECHNICAL UNIVERSITY \\[0.3cm]IN PRAGUE}\\[2ex]
+		{\LARGE \textsc Faculty of Civil Engenering \\[0.2cm]Engineering}\\[2ex]
+		{\LARGE \textsc Department of Mechanics}\\
+		\vspace{1cm}
+		\begin{figure}[ht!]
+			\begin{center}
+				{\includegraphics[width=5cm]{lev.eps}}
+			\end{center}
+		\end{figure}
+		\vspace{1cm}
+		
+		{\textbf {\Huge Bachelor Thesis \\[4ex]}
+			{\LARGE \bf Computational modelling of thermoplasts and using in anchor systems \\[1ex]}
+		}
+		
+		\vfill
+		
+		{\Large \bf Jan Vozáb }\\ [4ex]
+		{\large \bf  Supervisor: Doc. Ing. Jan Vorel Ph.D.}\\[4ex]
+		{\Large \bf Prague, 2017  }\\
+		\newpage}
+\end{center}
+\thispagestyle{empty}
+\begin{center}\setstretch{1.0}{
+		{\LARGE \textsc \mbox{ČESKÉ VYSOKÉ UČENÍ TECHNICKÉ \\[0.3cm] V PRAZE}\\[2ex]
+		{\LARGE \textsc Fakulta stavebního inženýrství}\\[2ex]
+		{\LARGE \textsc Katedra mechaniky}\\
+		\vspace{1cm}
+	}
+		\begin{figure}[ht!]
+			\begin{center}
+				{\includegraphics[width=5cm]{lev.eps}}
+			\end{center}
+		\end{figure}
+		\vspace{1cm}
+		
+		{\textbf {\Huge Bakalářská práce \\[4ex]}
+			{\LARGE \bf Počítačové modelování reaktoplastů a jejich využití v kotevních systémech \\[1ex]}
+		}
+		
+		\vfill
+		
+		{\Large \bf Jan Vozáb   }\\ [4ex]
+		{\large \bf  Vedoucí práce: Doc. Ing. Jan Vorel Ph.D.}\\[4ex]
+		{\Large \bf Praha, 2017  }\\
+		\newpage}
+\end{center}
+
+
+
+
+\setstretch{1.2}{
+%\input{zadani}
+%\input{prohlaseni}
+%\input{abstrakty}
+%\input{podekovani}
+}
+
+\setstretch{1.3}{
+\tableofcontents
+\pagestyle{plain}
+\listoffigures
+\listoftables}
+\newpage 
+
+\newgeometry{top=2cm,bottom=2cm,outer=2cm,inner=3cm,includeheadfoot}
+
+\pagestyle{fancy}
+\fancyhead[RO,LE]{}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0pt}
+
+\setstretch{1.5}{
+
+\clearpage
+\input{./kapitoly/kapitola0}
+
+\clearpage
+%\input{./kapitoly/kapitola1}
+
+\clearpage
+%\input{./kapitoly/kapitola20}
+
+\clearpage
+\input{./kapitoly/kapitola3}
+
+\clearpage
+%\input{./kapitoly/kapitola4}
+
+\clearpage
+%\input{./kapitoly/kapitola5}
+
+%\clearpage
+%\input{./kapitoly/kapitola7}
+
+\clearpage
+%\input{./kapitoly/kapitola6}
+
+}
+\setstretch{1.2}{
+	\clearpage
+	%\input{priloha0}
+	\clearpage
+	%\input{priloha1}
+}
+
+
+\clearpage
+
+\begin{thebibliography}{99}
+	
+	\bibitem{drucker}
+	W. Florkowski, \textit{Phenomenology of ultra-relativistic heavy-ion collisions}, London: World Scientific, 2010, ISBN 98-142-8066-6.
+	
+	\bibitem{QCD}
+	Fázový diagram QCD:
+	 
+	 https:$//$cds.cern.ch$/$record$/$1955819$/$files$/$TUOAA2f1-eps-converted-to.png
+	 
+	[online 24/07/2017].
+	
+	\bibitem{sarkar}
+	 S. Sarkar, H. Satz, B. Sinha, \textit{The Physics of the Quark-Gluon Plasma: Introductory Lectures}, Lect. Notes Phys. {\bf 785}, Springer, Berlin Heidelberg 2010, ISBN 978-3-642-02286-9.
+	
+	\bibitem{Aoki:2006we}
+	Y. Aoki, G. Endrodi, Z. Fodor, S. D. Katz and K. K. Szabo, \textit{The order of the quantum chromodynamics transition predicted by the standard model of particle physics}, Nature {\bf 443} (2006) 675.
+	
+	\bibitem{Aoki:2006br}
+	Y. Aoki, Z. Fodor, S. D. Katz and K. K. Szabo, \textit{The QCD transition temperature: Results with physical masses in the continuum limit}, Phys. Lett B {\bf 643} (2006) 46.
+	
+	\bibitem{bazavov}
+	A. Bazavov et. al., \textit{QCD equation of state to $O(\mu _{B} ^{6} )$ from lattice QCD}, Phys. Rev. D {\bf 95} (2017) 054504. 
+	
+	\bibitem{maly_tresk}
+	Malý třesk: https:$//$u.osu.edu$/$vishnu$/$physics$/$
+	[online 11/04/2017].
+	
+	\bibitem{velky_tresk}
+	Velký třesk: https:$//$www.nikhef.nl$/$$\sim$i93$/$img$/$universe$\_$original.jpg 
+	[online 11/04/2017].
+	
+	\bibitem{vyvoj}
+	Časoprostorový vývoj:
+	
+	https://www.physics.ohio-state.edu$/$$\sim$ntg$/$6805$/$figures$/$RHIC$\_$timescales$\_$Strickland.png
+	[online 11/04/2017].
+
+    \bibitem{Alba:2014eba}
+    P. Alba, W. Alberico, R. Bellwied, M. Bluhm, V. Mantovani Sarti, M. Nahrgang and C. Ratti, \textit{Freeze-out conditions from net-proton and net-charge fluctuations at RHIC}, Phys. Lett. B {\bf 738} (2014) 305, arXiv:1403.4903.
+    
+    \bibitem{gelis}
+    Francois Gelis, \textit{Color Glass Condensate and Glasma}, International Journal of Modern Physics A {\bf 28} (2012) 1330001, arXiv:1211.3327v2.
+    
+    \bibitem{boris}
+    B. Tomášik, F. Sannino, I. Bearden a T. Dossing, \textit{Topics in modern nuclear physics: Flow and Sizes}, Kobenhavns Universitet, Niels Bohr Institutet, 2004.
+    
+    \bibitem{koch}
+    C. M. Ko, V. Koch, Z.-W. Lin, K. Redlich, M. Stephanov, X.-N. Wang, \textit{Kinetic Equation with Exact Charge Conservation}, Phys. Rev. Lett. {\bf 86} (2001) 5438. 
+    
+    \bibitem{jeon}
+    S. Jeon, V. Koch, K. Redlich, X.-N. Wang, \textit{Fluctuations of rare particles as a measure of chemical equilibration}, Nucl. Phys. A {\bf 697} (2002) 546-562.
+    
+    \bibitem{ko}
+     C. M. Ko and L. Xia, \textit{$K^{+} / \pi ^{+}$ enhancement in heavy-ion collisions}, Phys. Rev. C {\bf 38} (1988) 179. 
+     
+     \bibitem{tomasik}
+     B. Tomášik and E. E. Kolomeitsev, \textit{Strangeness dynamics in heavy-ion collisions: The $K / \pi$ ratios and the lifetime of a fireball}, arXiv:nucl-th/0512088v1 (2005). 
+    
+    \bibitem{koeficienty}
+    Koeficienty: http:$//$www.itl.nist.gov$/$div898$/$handbook$/$eda$/$section3$/$eda35b.htm 
+    
+    [online 17/04/2017].
+    
+    \bibitem{besselovky}
+    Modifikované Besselovy funkce: http:$//$people.math.sfu.ca$/$$\sim$cbm$/$aands$/$page$\_$376.htm
+    [online 17/04/2017].
+    
+    \bibitem{particle}
+    Particle Data Group:
+    
+     http:$//$pdg.lbl.gov$/$2016$/$tables$/$contents$\_$tables.html
+    [online 17/04/2017].
+    
+    \bibitem{rad}
+    "Columbia plot": 
+    
+    https:$//$quark.phy.bnl.gov$/$$\sim$htding$/$usqcd$/$scaling.html
+    [online 17/04/2017].
+    	
+    \bibitem{bjorken}
+    J. D. Bjorken, \textit{Highly relativistic nucleus-nucleus collisions: The central rapidity region}, Phys. Rev. D {\bf 27} (1983) 140.
+    
+    	
+    \bibitem{borsanyi}
+    S. Borsanyi, Z. Fodor, S. D. Katz, S. Krieg, C. Ratti and K. K. Szabo, \textit{Freeze-out Parameters from Electric Charge and Baryon Number Fluctuations: Is there Consistence?}, Phys. Rev. Lett. {\bf 113} (2014) 052301.
+    	
+\end{thebibliography}
+
+\end{document}
