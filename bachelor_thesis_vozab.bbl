@@ -1,0 +1,27 @@
+\begin{thebibliography}{1}
+
+\bibitem{anchors-ACI-318M}
+ACI, ``Building code requirements for structural concrete,'' Tech. Rep.
+  318M-08, ACI, 2008.
+
+\bibitem{hilti_anchors}
+Hilti, {\em Anchor Fastening Technology Manual}, 2012.
+
+\bibitem{adhesive_anchors}
+S.~S. Sakla and A.~F. Ashour, ``Prediction of tensile capacity of single
+  adhesive anchors using neural networks,'' {\em Computers $\&$ Structures},
+  vol.~83, no.~21, pp.~1792 -- 1803, 2005.
+
+\bibitem{thermosetting_polymers}
+J.-P. Pascault, H.~Sautereau, J.~Verdu, and R.~J. Williams, {\em Thermosetting
+  polymers}, vol.~64.
+\newblock CRC Press, 2002.
+
+\bibitem{mars}
+ES3, ``Mars - modeling and analysis of the response structures.''
+
+\bibitem{geofem}
+M.~Sejnoha, {\em GEO FEM - Theoretical manual}.
+\newblock FINE Ltd. 1999–2009, 2009.
+
+\end{thebibliography}

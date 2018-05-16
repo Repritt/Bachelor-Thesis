@@ -1,0 +1,68 @@
+% Encoding: UTF-8
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+%% Saved with string encoding Unicode (UTF-8)
+
+@TechReport{anchors-ACI-318M,
+  author      = {ACI},
+  title       = {Building code requirements for structural concrete},
+  institution = {ACI},
+  year        = {2008},
+  journal     = {ACI 318M-08},
+}
+
+
+@manual
+{		
+	hilti_anchors,
+	author         	= {Hilti},
+	year           	= {2012},
+	title          	= {Anchor Fastening	Technology Manual},
+
+}
+
+
+@article
+{		
+	adhesive_anchors,
+	title 			= {Prediction of tensile capacity of single adhesive anchors using neural networks},
+	journal 		= {Computers $\&$ Structures},
+	volume 			= {83},
+	number 			= {21},
+	pages 			= {1792 - 1803},
+	year 			= {2005},
+	issn 			= {0045-7949},
+	author 			= {Sherief S.S. Sakla and Ashraf F. Ashour},
+
+}
+
+@Manual{geofem,
+  title        = {GEO FEM - Theoretical manual},
+  author       = {Michal Sejnoha},
+  organization = {FINE Ltd. 1999–2009},
+  year         = {2009},
+}
+
+@Misc{mars,
+  author = {ES3},
+  title  = {Mars - Modeling and Analysis of the Response Structures},
+  url    = {http://mars.es3inc.com/www_es3inc_com/marssolver/},
+}
+
+@Book{thermosetting_polymers,
+  title         = {Thermosetting polymers},
+  publisher     = {CRC Press},
+  year          = {2002},
+  author        = {Pascault, Jean-Pierre and Sautereau, Henry and Verdu, Jacques and Williams, Roberto JJ},
+  volume        = {64},
+  __markedentry = {[janvo:6]},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+{
+	mars,
+	URL				={http://mars.es3inc.com/www_es3inc_com/marssolver/}
+
+}
