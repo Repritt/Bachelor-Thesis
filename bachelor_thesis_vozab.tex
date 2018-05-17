@@ -1,4 +1,4 @@
-\documentclass[12pt,titlepage,twoside]{article}
+\documentclass[12pt,titlepage, twoside]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage[titletoc]{appendix}
@@ -26,6 +26,35 @@
 \usepackage[top = 2cm, bottom = 2cm, outer=2 cm, inner = 3cm]{geometry}
 \usepackage{footnote}
 \usepackage{mathtools}
+\usepackage[export]{adjustbox}
+
+%% for including PDF pages
+\usepackage{caption}
+\usepackage{lipsum}
+\usepackage{boxhandler}
+\usepackage{pdfpages}
+
+%% for mathematical fractals and symbosl
+\usepackage{physics}
+
+%ťhis three for degrees
+\usepackage{amsmath}
+\usepackage{breqn}
+\usepackage{siunitx}
+
+%% this three for numbering of footnotes
+\usepackage{footmisc}
+\usepackage{perpage}
+\MakePerPage{footnote}
+
+%% for using bibtex
+\usepackage{natbib}
+%\setcitestyle{numbers,square,sort&compress}
+
+%\usepackage[numbers,comma,sort&compress]{natbib}
+%Calls bibliography commands 
+\bibliographystyle{ieeetr}
+
 
 %\usepackage{blockarray}% http://ctan.org/pkg/blkarray
 %\newcommand{\matindex}[1]{\mbox{\scriptsize#1}}% Matrix index
@@ -66,7 +95,8 @@
 %\evensidemargin 3 cm
 %\oddsidemargin 2 cm
 \topmargin -.5cm
-
+\marginparwidth = 50pt
+\marginparsep = 3pt
 
 \textheight 217mm
 %\textwidth 165mm
@@ -100,10 +130,11 @@
 %************************************
 %		Nedělitelná slova			%
 %************************************
-%\hyphenation{Drucker-Prager}
-%\hyphenation{Mohr-Coulomb}
+\hyphenation{Drucker-Prager}
+\hyphenation{Mohr-Coulomb}
 
-
+\newcommand\cleartooddpage{\clearpage
+	\ifodd\value{page}\else\null\clearpage\fi}
 
 \renewcommand{\footnoterule}{%
 	\kern -1pt
@@ -111,8 +142,18 @@
 	\kern 2pt
 }
 
-\begin{document}
+%************************************
+%			commenting todos				%
+%************************************
+%\usepackage[colorlinks]{hyperref}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{verbatim}
 
+
+
+
+
+\begin{document}
 
 
 
@@ -120,25 +161,25 @@
 \thispagestyle{empty}
 \begin{center}\setstretch{1.0}{
 		{\LARGE \textsc CZECH TECHNICAL UNIVERSITY \\[0.3cm]IN PRAGUE}\\[2ex]
-		{\LARGE \textsc Faculty of Civil Engenering \\[0.2cm]Engineering}\\[2ex]
+		{\LARGE \textsc Faculty of Civil Engineering}\\[2ex]
 		{\LARGE \textsc Department of Mechanics}\\
 		\vspace{1cm}
 		\begin{figure}[ht!]
 			\begin{center}
-				{\includegraphics[width=5cm]{lev.eps}}
+				{\includegraphics[width=5cm]{lev_novy.eps}}
 			\end{center}
 		\end{figure}
 		\vspace{1cm}
 		
 		{\textbf {\Huge Bachelor Thesis \\[4ex]}
-			{\LARGE \bf Computational modelling of thermoplasts and using in anchor systems \\[1ex]}
+			{\LARGE \bf Computational modeling of thermoset polymers with application to anchors \\[1ex]}
 		}
 		
 		\vfill
 		
 		{\Large \bf Jan Vozáb }\\ [4ex]
 		{\large \bf  Supervisor: Doc. Ing. Jan Vorel Ph.D.}\\[4ex]
-		{\Large \bf Prague, 2017  }\\
+		{\Large \bf Prague, 2018  }\\
 		\newpage}
 \end{center}
 \thispagestyle{empty}
@@ -150,20 +191,20 @@
 	}
 		\begin{figure}[ht!]
 			\begin{center}
-				{\includegraphics[width=5cm]{lev.eps}}
+				{\includegraphics[width=5cm]{lev_novy.eps}}
 			\end{center}
 		\end{figure}
 		\vspace{1cm}
 		
 		{\textbf {\Huge Bakalářská práce \\[4ex]}
-			{\LARGE \bf Počítačové modelování reaktoplastů a jejich využití v kotevních systémech \\[1ex]}
+			{\LARGE \bf Počítačové modelování reaktoplastů používaných v kotevních systémech \\[1ex]}
 		}
 		
 		\vfill
 		
 		{\Large \bf Jan Vozáb   }\\ [4ex]
 		{\large \bf  Vedoucí práce: Doc. Ing. Jan Vorel Ph.D.}\\[4ex]
-		{\Large \bf Praha, 2017  }\\
+		{\Large \bf Praha, 2018  }\\
 		\newpage}
 \end{center}
 
@@ -172,12 +213,18 @@
 
 \setstretch{1.2}{
 %\input{zadani}
-%\input{prohlaseni}
+\includepdf[fitpaper]{zadani.pdf}
+\cleardoublepage
+\input{prohlaseni}
+\clearpage
+\todo[size=\tiny]{Missing abstracts}
 %\input{abstrakty}
-%\input{podekovani}
+\input{podekovani}
 }
 
-\setstretch{1.3}{
+\setstretch{1.35}{
+
+\clearpage
 \tableofcontents
 \pagestyle{plain}
 \listoffigures
@@ -192,31 +239,36 @@
 \fancyhead[LO]{\rightmark}
 \renewcommand{\headrulewidth}{0pt}
 
-\setstretch{1.5}{
+\setstretch{1.20}{
 
-\clearpage
+
+
+%\cleartooddpage
+\cleardoublepage
 \input{./kapitoly/kapitola0}
-
-\clearpage
+%\clearpage
 %\input{./kapitoly/kapitola1}
 
-\clearpage
+\cleardoublepage
 %\input{./kapitoly/kapitola20}
 
-\clearpage
+\cleardoublepage
+\input{./kapitoly/kapitola2}
+
+\cleardoublepage
 \input{./kapitoly/kapitola3}
 
-\clearpage
-%\input{./kapitoly/kapitola4}
+\cleardoublepage
+\input{./kapitoly/kapitola4}
 
-\clearpage
-%\input{./kapitoly/kapitola5}
+\cleardoublepage
+\input{./kapitoly/kapitola5}
 
-%\clearpage
+\cleardoublepage
+\input{./kapitoly/kapitola6}
+
+\cleardoublepage
 %\input{./kapitoly/kapitola7}
-
-\clearpage
-%\input{./kapitoly/kapitola6}
 
 }
 \setstretch{1.2}{
@@ -227,95 +279,36 @@
 }
 
 
-\clearpage
+\cleardoublepage
+
+\bibliography{thesisbiblio}
+
+
+\begin{comment}
+	Obsah...
 
 \begin{thebibliography}{99}
+	\bibitem{anchors-ACI-318M}
+	ACI (2008). ACI 318M-08 Building code requirements for structural concrete. ACI
 	
-	\bibitem{drucker}
-	W. Florkowski, \textit{Phenomenology of ultra-relativistic heavy-ion collisions}, London: World Scientific, 2010, ISBN 98-142-8066-6.
+	\bibitem{hilti_anchors}
+	Post-installed anchors. Hilti - mechanical vs adhesive anchors [online]. [cit. 2018-04-21].  
 	
-	\bibitem{QCD}
-	Fázový diagram QCD:
-	 
-	 https:$//$cds.cern.ch$/$record$/$1955819$/$files$/$TUOAA2f1-eps-converted-to.png
-	 
-	[online 24/07/2017].
+	Available from: $https$:$//ask.hilti.com/article/mechanical$-$vs$-$adhesive$-$anchors/rysrkl$
 	
-	\bibitem{sarkar}
-	 S. Sarkar, H. Satz, B. Sinha, \textit{The Physics of the Quark-Gluon Plasma: Introductory Lectures}, Lect. Notes Phys. {\bf 785}, Springer, Berlin Heidelberg 2010, ISBN 978-3-642-02286-9.
+	\bibitem{adhesive_anchors}
+	Sherief S.S. Sakla, Ashraf F. Ashour, \textit{Prediction of tensile capacity of single adhesive anchors using neural networks},	Computers $\&$ Structures \textbf{83} (2005) 1792-1803.
 	
-	\bibitem{Aoki:2006we}
-	Y. Aoki, G. Endrodi, Z. Fodor, S. D. Katz and K. K. Szabo, \textit{The order of the quantum chromodynamics transition predicted by the standard model of particle physics}, Nature {\bf 443} (2006) 675.
+	\bibitem{thermosetting_polymers}
+	PASCAULT, Jean-Pierre. Thermosetting polymers. New York: Marcel Dekker, c2002. Plastics engineering (Marcel Dekker, Inc.), 64. ISBN 08-247-0670-6.
 	
-	\bibitem{Aoki:2006br}
-	Y. Aoki, Z. Fodor, S. D. Katz and K. K. Szabo, \textit{The QCD transition temperature: Results with physical masses in the continuum limit}, Phys. Lett B {\bf 643} (2006) 46.
+	\bibitem{mars}
+	More info on official site: 
+	$http://mars.es3inc.com/www_es3inc_com/marssolver/$
 	
-	\bibitem{bazavov}
-	A. Bazavov et. al., \textit{QCD equation of state to $O(\mu _{B} ^{6} )$ from lattice QCD}, Phys. Rev. D {\bf 95} (2017) 054504. 
-	
-	\bibitem{maly_tresk}
-	Malý třesk: https:$//$u.osu.edu$/$vishnu$/$physics$/$
-	[online 11/04/2017].
-	
-	\bibitem{velky_tresk}
-	Velký třesk: https:$//$www.nikhef.nl$/$$\sim$i93$/$img$/$universe$\_$original.jpg 
-	[online 11/04/2017].
-	
-	\bibitem{vyvoj}
-	Časoprostorový vývoj:
-	
-	https://www.physics.ohio-state.edu$/$$\sim$ntg$/$6805$/$figures$/$RHIC$\_$timescales$\_$Strickland.png
-	[online 11/04/2017].
-
-    \bibitem{Alba:2014eba}
-    P. Alba, W. Alberico, R. Bellwied, M. Bluhm, V. Mantovani Sarti, M. Nahrgang and C. Ratti, \textit{Freeze-out conditions from net-proton and net-charge fluctuations at RHIC}, Phys. Lett. B {\bf 738} (2014) 305, arXiv:1403.4903.
-    
-    \bibitem{gelis}
-    Francois Gelis, \textit{Color Glass Condensate and Glasma}, International Journal of Modern Physics A {\bf 28} (2012) 1330001, arXiv:1211.3327v2.
-    
-    \bibitem{boris}
-    B. Tomášik, F. Sannino, I. Bearden a T. Dossing, \textit{Topics in modern nuclear physics: Flow and Sizes}, Kobenhavns Universitet, Niels Bohr Institutet, 2004.
-    
-    \bibitem{koch}
-    C. M. Ko, V. Koch, Z.-W. Lin, K. Redlich, M. Stephanov, X.-N. Wang, \textit{Kinetic Equation with Exact Charge Conservation}, Phys. Rev. Lett. {\bf 86} (2001) 5438. 
-    
-    \bibitem{jeon}
-    S. Jeon, V. Koch, K. Redlich, X.-N. Wang, \textit{Fluctuations of rare particles as a measure of chemical equilibration}, Nucl. Phys. A {\bf 697} (2002) 546-562.
-    
-    \bibitem{ko}
-     C. M. Ko and L. Xia, \textit{$K^{+} / \pi ^{+}$ enhancement in heavy-ion collisions}, Phys. Rev. C {\bf 38} (1988) 179. 
-     
-     \bibitem{tomasik}
-     B. Tomášik and E. E. Kolomeitsev, \textit{Strangeness dynamics in heavy-ion collisions: The $K / \pi$ ratios and the lifetime of a fireball}, arXiv:nucl-th/0512088v1 (2005). 
-    
-    \bibitem{koeficienty}
-    Koeficienty: http:$//$www.itl.nist.gov$/$div898$/$handbook$/$eda$/$section3$/$eda35b.htm 
-    
-    [online 17/04/2017].
-    
-    \bibitem{besselovky}
-    Modifikované Besselovy funkce: http:$//$people.math.sfu.ca$/$$\sim$cbm$/$aands$/$page$\_$376.htm
-    [online 17/04/2017].
-    
-    \bibitem{particle}
-    Particle Data Group:
-    
-     http:$//$pdg.lbl.gov$/$2016$/$tables$/$contents$\_$tables.html
-    [online 17/04/2017].
-    
-    \bibitem{rad}
-    "Columbia plot": 
-    
-    https:$//$quark.phy.bnl.gov$/$$\sim$htding$/$usqcd$/$scaling.html
-    [online 17/04/2017].
-    	
-    \bibitem{bjorken}
-    J. D. Bjorken, \textit{Highly relativistic nucleus-nucleus collisions: The central rapidity region}, Phys. Rev. D {\bf 27} (1983) 140.
-    
-    	
-    \bibitem{borsanyi}
-    S. Borsanyi, Z. Fodor, S. D. Katz, S. Krieg, C. Ratti and K. K. Szabo, \textit{Freeze-out Parameters from Electric Charge and Baryon Number Fluctuations: Is there Consistence?}, Phys. Rev. Lett. {\bf 113} (2014) 052301.
+	\bibitem{geofem}
+	Prof. Ing. Michal Šejnoha, Ph.D., DSc. GEO FEM - Theoretical manual: A computer program for nonlinear finite element analysis of geotechnical problems. 2009, FINE Ltd. 1999-2009.
     	
 \end{thebibliography}
-
+\end{comment}
 \end{document}

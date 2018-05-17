@@ -14,8 +14,8 @@ Vinyl-ester based systems are more pricey than epoxy systems, but not that much.
 \subsubsection{Epoxy systems}\label{subsec:epoxy_systems}
 Epoxy systems in all categories of work will realize the greatest degree of bond strength, waterproofing and toughness. Well-reinforced epoxy repair will tenaciously hold to the substrate with almost $14 000~\mathrm{kPa}$ strength. In areas that must be able to flex and strain with the fibers without micro-fracturing, epoxy resins offer much greater capability. Cured epoxy tends to be very resistant to moisture absorption. Epoxy resin will bond dissimilar or already-cured materials which makes repair work that is  very reliable and strong. It actually bonds to all sorts of fibers very well and also offers excellent results in repair-ability when it is used to bond two different materials together. New generation of epoxy systems feature many of the advantages of low viscosity and accurately tailored gel and cure times. 
 
-\subsection{Numerical description of thermosetting polymers}
-In order to describe thermosetting polymers, there are three degrees of complexity, depending on the number of variables taken into account in constitutive equations under consideration \cite{thermosetting_polymers}. 
+\subsection{Numerical description of thermosetting polymers}\label{sec:poly_complexity}
+In order to describe thermosetting polymers, there are more degrees of complexity (in this thesis two), depending on the number of variables taken into account in constitutive equations under consideration (see also \cite{thermosetting_polymers}). 
 \begin{itemize}
 	
 	%%%%%%%%%%%%%%%%%%%%% FIRST LEVEL %%%%%%%%%%%%%%%%%%%%%%
@@ -32,7 +32,7 @@ In order to describe thermosetting polymers, there are three degrees of complexi
 		E = 3K(1-2\nu); ~~G=\dfrac{3}{2}\dfrac{(1-2\nu)}{(1+\nu)};~~ K=\frac{E}{2(1+\nu)},
 	\end{equation}
 	
-	where $E$ is the elastic (Young) modulus, $G$ is the shear (Coulomb) modulus, and $K$ is the bulk modulus, and $\nu$ is the Poisson's ratio. $E$ can be obtained from a uniaxial tensile test $(E=\sigma/\varepsilon)$, or a uniaxial compressive test, or flexural test; $G$ can be determined from a shear test $G=s/\gamma$, where $s$ is the shear stress and $\gamma$ is the shear strain; K can be determined from a compressibility test, 
+	where $E$ is the elastic (Young) modulus, $G$ means the shear (Coulomb) modulus, $K$ represent the bulk modulus, and $\nu$ is the Poisson's ratio. $E$ can be obtained from a uniaxial tensile test $(E=\sigma/\varepsilon)$, or a uniaxial compressive test, or flexural test; $G$ can be determined from a shear test $G=s/\gamma$, where $s$ is the shear stress and $\gamma$ is the shear strain; K can be determined from a compressibility test, 
 	
 	\begin{equation}\label{eq:K_moduli}
 		K=\left(\dfrac{1}{V}\dfrac{dV}{dp}\right)^{-1},
@@ -43,7 +43,7 @@ In order to describe thermosetting polymers, there are three degrees of complexi
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.7\linewidth]{obrazky/mechanical_tests}
-		\caption[Mechanical tests to determine E, K, G moduli]{Mechanical tests to determine (a) E; (b) K; (c) G.}
+		\caption[Mechanical tests to determine E, K, G moduli]{Mechanical tests to determine (a) E; (b) G; (c) K.}
 		\label{fig:mechanicaltests}
 	\end{figure}
 
@@ -52,29 +52,30 @@ In order to describe thermosetting polymers, there are three degrees of complexi
 	\textit{Second level}, where the constitutive equations must involve two (or more) additional variables. For instance:
 	
 	\begin{equation}\label{eq:second_level}
-		f(\sigma,\varepsilon,\dot{\varepsilon},T)=0,
+		f(\sigma,\varepsilon,\dot{\varepsilon},T, t, c, \Theta)=0,
 	\end{equation}
 	
-	where $\dot{\varepsilon}$ is the strain rate and $T$ is the temperature.
-	These new variables are necessary for addition viscoelastic behavior into the material model. This behavior is linked to the molecular motions, which are important in the glassy domain, which between boundaries $\alpha$ and $\beta$ (in the map of Fig. \ref{fig:effectoncrosslinkdensity}). Also they affect the behavior in the glass transition region (around boundary $\alpha$). We also need relationships that describe the effects of $\dot{\varepsilon}$, $\dot{\sigma}$, and $T$ on the previously defined elastic properties. As next there will be required numerical boundary values of elastic properties, which are characterizing unrelaxed a relaxed states.
+	where $\dot{\varepsilon}$ is the strain rate, $T$ means the temperature, $t$ represent time , $c$ is moisture content and $\Theta$ means mechanical dilatation.
+	These new variables are necessary for addition viscoelastic behavior into the material model. This behavior is linked to the molecular motions, which are important in the glassy domain (in the Fig. \ref{fig:effectoncrosslinkdensity} between boundaries $\alpha$ and $\beta$). Also they affect the behavior in the glass transition region (around boundary $\alpha$). High influence on the behavior also have thermo-mechanical history from anchor installation and physical aging of the material. 
+	For the model are needed also relationships, that describe the effects of $\dot{\varepsilon}$, $\dot{\sigma}$, $T$, $t$, $c$ and $\Theta$ on the previously defined elastic properties. As next will be required equations $J(t)$ (function of compliance, respective creep) and $R(t)$ (function of relaxation), which describe numerical boundary values of elastic properties, which are characterizing unrelaxed a relaxed states.
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\linewidth]{obrazky/effect_on_cross_link_density}
-		\caption[Shape of relaxation maps]{Shape of relaxation maps: In the figure you can see dependence of $\ln f$ (frequency) to reciprocal temperature for coordinates of transitions - $\alpha$, $\beta$: left - polymers having their $\alpha$ and $\beta$ transitions well separated; right - polymers with close $\alpha$ and $\beta$ transitions}
+		\caption[Shape of relaxation maps]{Shape of relaxation maps: dependence of $\ln f$ (frequency) to reciprocal temperature for coordinates of transitions $\alpha$, $\beta$: (a) - polymers having their $\alpha$ and $\beta$ transitions well separated; (b) - polymers with close $\alpha$ and $\beta$ transitions}
 		\label{fig:effectoncrosslinkdensity}
 	\end{figure}
 	
-	There we can find three major experimental methods for mechanical characterization in this region, which correspond to particular solutions of the material's state equation: 
+	In the literature we can find three major experimental methods for mechanical characterization in this region, which correspond to particular solutions of the material's state equation: 
 	
 	\begin{itemize}
-		\item Static tests: $\varepsilon = \varepsilon_{0} = constant$ for relaxation or $\sigma = \sigma_{0} = constant$ for creep. 
+		\item Static tests: $\varepsilon = \varepsilon_{0} = constant$ for relaxation, or $\sigma = \sigma_{0} = constant$ for creep. 
 		
-		\item Monotonous tests with loading rate $\dot{\varepsilon}$ or $\dot{\sigma} = constant$ (for example tensile tests): 
+		\item Monotonous tests with loading rate $\dot{\varepsilon}$, or $\dot{\sigma} = constant$ (for example tensile tests): 
 		
 		$\dot{\varepsilon} = \dfrac{1}{l}\dfrac{dl}{dt}$
 		
-		\item dynamic tests: $\varepsilon = \varepsilon_{0} \sin(\omega t)$ or $\sigma = \sigma_{0} \sin(\omega t)$
+		\item dynamic tests: $\varepsilon = \varepsilon_{0} \sin(\omega t)$, or $\sigma = \sigma_{0} \sin(\omega t)$
 	\end{itemize}
 	
 	Polymers are generally assumed to obey the Boltzmann superposition principle in the region of small strains. When there are changes of loading conditions, the effects of these changes are additive when the corresponding responses are considered at equivalent times. For example, if different stresses $\sigma_{0}$, $\sigma_{1}$, $\sigma_{2}$,...$\sigma_{i}$ are applied at different times $0$, $t_{1}$, $t_{2}$,...$t_{i}$, respectively, the final strain is
@@ -91,9 +92,7 @@ In order to describe thermosetting polymers, there are three degrees of complexi
 	\sigma(t) = E(t)\varepsilon_{0} + E(t-t_{1})\varepsilon_{1}+ E(t-t_{2})\varepsilon_{2}+\cdots+E(t-t_{i})\varepsilon_{i}
 	\end{equation}
 	
-	where $E(t)$ is the time-dependent relaxation modulus. 
-	
-	Thats why we need to know $J(t)$ or $E(t)$. It is generally effective to use dynamic tests to obtain $J(\omega)$ or $E(\omega)$, and then, thanks to using mathematical transformations, determine $J(t)$ or $E(t)$.
+	where $E(t)$ is the time-dependent relaxation modulus. It is generally effective to use dynamic tests to obtain $J(\omega)$ or $E(\omega)$, and then with using mathematical transformations determine $J(t)$ or $E(t)$.
 	
 	Ordinary, polymers obey a time-temperature superposition principle:
 	
@@ -101,38 +100,31 @@ In order to describe thermosetting polymers, there are three degrees of complexi
 		P_{r}(t,T) = P_{r} \left(\dfrac{t}{a_{T}}, T_{r}\right)
 	\end{equation}
 	
-	where $P_{r}$ is function of $T_{r}$ and $a_{t}$. In equation \ref{eq2:shift_factor} $T_{r}$ is reference temperature and $a_{T}$ is a shift factor, that dependence only on temperature. Polymers are interesting in that $a_{T} = f(T)$ witch take different mathematical forms below and above glass transition temperature $T_{g}$.
-	
-	%%%%%%%%%%%%%%%%%%%%% THIRD LEVEL %%%%%%%%%%%%%%%%%%%%%%
-	\item
-	\textit{Third level} of complexity, where is the unsteady character of the polymer linked to the fact, that it is out of equilibrium in the glassy state, and have to be taken into account. The behavior of the material does not depends only on the environmental conditions and mechanical stimulations but also on its thermo-mechanical history from its installation, which leads to adding the time variable to the constitutive equations:
-	
-	\begin{equation}
-		f(\sigma,\varepsilon,\dot{\varepsilon},T,t)=0
-	\end{equation}
-	
-	The adding time to the equation leads to add a effect called embrittlement to material behavior, which is decreasing in the fracture resistance by physical aging. Other aspect of mechanical behavior are not affected, or favorable by increase of relaxation times, decrease of creep or relaxation rates. For that reason are thermosets in most applications, by the knowledge of short-term properties, considered as sufficient for engineering design as far as durability and fracture are not concerned in model.
+	where $P_{r}$ is function of $T_{r}$ and $a_{T}$. In Eq. \ref{eq2:shift_factor} $T_{r}$ are a reference temperature and $a_{T}$ is a thermal shift factor, that depend on temperature, humidity and mechanical dilatation. Polymers are interesting in that $a_{T} = f(T, c, \Theta)$ witch take different mathematical forms below and above glass transition temperature $T_{g}$.
 	
 \end{itemize}
 
 
 \subsection{Material properties}\label{subsec:mat_proper}
-Material properties needed for studying long-term performance of thermosetting polymers include the kinetics reaction, associated curing degrees, viscoelastic properties, and standard mechanical properties, such as stiffness and fracture. And it is worth to mention that the degree of cure influences the glass-transition temperature, brittleness, impact resistance, creep behavior or long term stability and is dependent on both time and temperature. All of these i describe below in detail. 
+\indent
 
-\subsubsection{Standard mechanical properties}
+Material properties needed for studying model performance of thermosetting polymers are directly connected to degree of complexity, which is being investigated. As you can see in Sec. \ref{sec:poly_complexity}, in the first level are needed just basic mechanical properties, such as the bulk $K$, shear $G$, Young $E$ moduli, and Poisson's ratio $\nu$. But such low number of material properties makes model limited to relatively sharp intervals of time and temperature, and functioning at low strains, because elasticity is nonlinear and secant modulus rapidly decrease with strain increasing. 
 
-
-There are two main sets of material properties involved in any problem of mechanical reliability\cite{thermosetting_polymers}.
+For more accurate model is needed higher level of complexity. This leads to the more specified material properties, which include yielding and fracture properties, volumetric properties, cohesive properties, glass transition properties, crosslink density, chain mobility, viscoelastic properties,curing degree and aging of the material. Some of them are described below in a more detail.	
 
 \begin{itemize}
-	\item \textit{Yielding properties.} Yielding or plastic deformation can be considered as the boundary between reversible and permanent deformation. In normal conditions, the material must be used below the yield boundary, often called elastic limit of material. 
-	\item \textit{Fracture properties.} If the material goes beyond its yield boundary, becomes important the ultimate fracture stress or strain, where the integrity of the material is lost. Then we need specific theoretical and experimental tools, e.g., fracture mechanics, to study these phenomena. 
+	\item 	Yielding properties define boundary between reversible and permanent deformation, but also behavior of the material over this boundary. In normal conditions, the material must be used below the yield boundary, often called elastic limit of material. 
+	If the stress goes beyond its yield boundary, becomes important the ultimate fracture stress or strain, where the integrity of the material is lost. Then we need specific theoretical and experimental tools, e.g., fracture mechanics, to study these phenomena.
+	
+	\item Volumetric properties include free volume, density, packing density and expansion. Free volume is an intrinsic property of the polymer matrix and is created by the gaps left between entangled polymer chains. It can affect absorption and diffusion of the molecules in polymers.
+	
+	\item Cohesive properties are represented by the cohesive energy as the whole energy of intermolecular interactions, which is easy to determine from calorimetric measurements\footnote{For small molecules}, and cohesive energy density.
+	
+	\item Glass transition is a catastrophic softening of the material, when is temperature over the glass transition temperature $T_g$, which is the main property. Also has influence to the curing process due to its exothermal behavior. 
+	
+	\item Viscoelastic properties include creep and relaxation properties, which describe connections between the stresses and strains with respect to time. Creep means increasing of the strains in time with constant stress and relaxation means reduction of the stresses under constant strains. 
+	
+	\item Curing degree define change of the material from the liquid to the glassy state. It has high influence due to the fact, that the anchors are typically loaded with uncertain curing degree.  
+	
 \end{itemize}
 
-
-
-\subsection{Curing of adhesives}
-
-\subsection{Viscoelastic properties}
-
-\subsection{Numerical approximation}
