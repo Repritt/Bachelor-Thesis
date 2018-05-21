@@ -2,53 +2,54 @@
 %% Zacatek vzorove strany %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \thispagestyle{empty}
 
-\noindent {\it N\'azev pr\'ace:}\\
-{\bf Fluktuace multiplicity ve srážkách těžkých iontů}\\
+\noindent {\it Název práce:}\\
+{\bf Počítačové modelování reaktoplastů používaných v kotevních sytémech}\\
 
 \noindent
-{\it Autor:} Bc. Radka Sochorov\'a  \\
+{\it Autor:} Jan Vozáb  \\
 \\
 \noindent
-{\it Obor:}       Experiment\'aln\'i  jadern\'a  a \v{c}\'asticov\'a  fyzika\\
+{\it Obor:}       Konstrukce a dopravní stavby\\
 \\
 \noindent
-{\it Druh práce:} Diplomová práce\\
+{\it Druh práce:} Bakalářská práce\\
 \\
-\noindent {\it Vedoucí práce:} Doc. Dr. Boris Tom\'a\v{s}ik\\  --------------------------------------------------------------------------------------- \\
+\noindent {\it Vedoucí práce:} doc. Ing. Jan Vorel, Ph.D.\\   --------------------------------------------------------------------------------------- \\
 
 \noindent {\it Abstrakt:} 
 
-V rané fázi ultrarelativistických srážek těžkých iontů je produkována horká a hustá jaderná hmota, kterou nazýváme kvark-gluonovým plazmatem (QGP). Jde o nedávno objevené médium, ve kterém už běžné hadrony neexistují a ve kterém se kvarky a gluony stávají volnými. 
+Thermosetové polymery mají v konstrukčním inženýrství důležitou roli. Avšak hlavní rozdíl od použití v automobilovém nebo leteckém inženýrství spočívá v tom, že při použití v konstruknční fázi výstavby není polymer obvykle dokonale vytvrzený, v důsledku čehož se stává komplikovanější simulace tohoto materiálu.
 
-Hlavní motivací této práce je pozorování, že celkové pozorované multiplicity jednotlivých druhů částic z ultrarelativistických srážek těžkých iontů souhlasí se statistickým modelem při teplotách nad $160 ~\mathrm{MeV}$. Teplotu fázového přechodu lze stanovit také pomocí metod QCD na mřížce. Je to teplota, při které se susceptibility různých řádů jako funkce teploty mění nejrychleji. Tato teplota se nachází okolo $150 ~\mathrm{MeV}$. Susceptibility různých řádů se přitom projevují ve vyšších momentech rozdělení multiplicity.
+Hlavní motivací této práce pozorování chování thermosetových polymerů a popsání jejich vlastností s ohledem na dodatečné vytvrzování a s tím spojenou změnu materiálových vlastností. 
 
-Cílem této práce je studovat vývoj rozdělení multiplicity za pomoci řídící rovnice. Nejdříve se zaměřujeme na vyšší faktoriální momenty (třetí a čtvrtý), ze kterých můžeme následně odvodit všechny ostatní momenty jako např. centrální momenty. Z nich pak můžeme spočítat jejich důležité kombinace, koeficient šikmosti a koeficient špičatosti. Jelikož nás zajímá čas termalizace faktoriálních momentů, nejdříve studujeme vývoj rozdělení multiplicity pro konstantní teplotu. Potom necháme teplotu fireballu postupně klesat a sledujeme, jak se vyšší momenty chovají v tomto případě.  
+Cílem této práce je popsání a implementace materiálového modelu, který zohledňuje výše popsané vlivy a je schopen simulovat chování materiálu zatíženým v rešiči na bázi metody konečných prvků. Model v této práci je složen ze dvou částí. První je model vytvrzování, který zohledňuje vytvrzování materiálu v závislosti na teplotě a času, a jehož výstupem jsou upravené materiálové parametry modelu. Jako druhý je použitý elasto-plastický model Drucker-Prager, který popisuje materiál s ohledem na mez plasticity a plastického chování. 
 \\
 \\
-\noindent {\it Klíčová slova:} fázový přechod, řídící rovnice, faktoriální momenty, centrální momenty, koeficient šikmosti a špičatosti
+
+\noindent {\it Klíčová slova:} dodatečné vytvrzování, Viskoelastický materiál, thermosetové polymery, Drucker-Prager, metoda konečných prvků
 
  \newpage
 \thispagestyle{empty}
  \noindent
 {\it Title:}\\
-{\bf Multiplicity fluctuations in heavy-ion collisions}\\
+{\bf Computational modeling of thermoset polymers with application to anchors}\\
 
 \noindent
-{\it Autor:} Bc. Radka Sochorová \\
+{\it Autor:} Jan Vozáb \\
+ 
 --------------------------------------------------------------------------------------- \\
 
 \noindent {\it Abstract:} 
+Thermosetting polymers have an important role in structural engineering. However main difference between using this material in automotive and aerospace engineering is in fact, that in this region is used often in fully cured state, which leads to difficult simulation of this material. 
 
-In the early phase of an ultrarelativistic heavy ion collisions is produced hot and dense nuclear matter, which is called the quark-gluon plasma (QGP). It is a newly-discovered form of matter, in which ordinary hadrons do not exist anymore, and in which quarks and gluons become free. 
+The main motivation of this work is to observe the behavior of thermoset polymers and to describe their properties with regard to the additional curing and the associated change in material properties.
 
-The main motivation of this work is that overall observed multiplicity of different types of particles from ultrarelativistic nuclear collisions agrees with the statistical model at temperatures above $160 ~\mathrm{MeV}$. The phase transition temperature can be also determined by lattice QCD methods. It is a temperature at which susceptibilities of different orders as functions of temperature are changing fastest. This temperature is about $150 ~\mathrm{MeV}$. Susceptibilities of different orders manifest
-themselves in higher moments of the multiplicity distribution.
-
-So the main aim of this work is to study the evolution of the multiplicity distribution with the help of a master equation. Particularly we focus on the higher factorial moments (third and fourth) from which all other kinds of moments, eg. central moments, can be calculated. From the central moments we can derive their important combinations, coefficient of skewness and kurtosis. We first study thermalisation time of factorial moments when the temperature is fixed. Then we study the evolution of the moments 
-in a situation with decreasing temperature. 
+So the aim of this work is to describe and implement a material model that takes into account the above described effects and is able to simulate the behavior of the material loaded in the finite element method. The model in this thesis is composed of two parts. The first is a curing model that takes into account curing of material  in relation to temperature and time, and the outcome are the adjusted material parameters. The second is the elasto-plastic model Drucker-Prager, which describes the material with respect to the limits of plasticity and plastic behavior.
 \\
 \\
-\noindent {\it Key words:} phase transition, Master equation,  factorial moments, central moments, coefficient of skewness and kurtosis
+
+\noindent 
+{\it Key words:} material curing, viscoelastic material,  thermosetting polymers, Drucker-Prager, finite element method
 %% Konec vzorove strany %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

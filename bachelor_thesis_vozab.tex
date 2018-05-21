@@ -152,7 +152,7 @@
 
 
 
-
+%\pagenumbering{roman} % Start roman numbering
 \begin{document}
 
 
@@ -208,7 +208,7 @@
 		\newpage}
 \end{center}
 
-
+%\pagenumbering{roman} % Start roman numbering
 
 
 \setstretch{1.2}{
@@ -217,8 +217,8 @@
 \cleardoublepage
 \input{prohlaseni}
 \clearpage
-\todo[size=\tiny]{Missing abstracts}
-%\input{abstrakty}
+%\todo[size=\tiny]{Missing abstracts}
+\input{abstrakty}
 \input{podekovani}
 }
 
@@ -241,7 +241,8 @@
 
 \setstretch{1.20}{
 
-
+%\pagenumbering{arabic} % Switch to normal numbers
+%\setcounter{page}{1}
 
 %\cleartooddpage
 \cleardoublepage

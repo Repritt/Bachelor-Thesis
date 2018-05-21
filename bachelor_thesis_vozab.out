@@ -1,5 +1,25 @@
-\BOOKMARK [1][-]{section.1}{Drucker-Prager model of plasticity}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Introduction}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Drucker-Prager yield criterion}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{Calculation procedure and implementation}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.4}{Return to yield of plasticity}{section.1}% 5
+\BOOKMARK [1][-]{figure.caption.2}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1}{Anchor systems}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Load transfer mechanisms}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.2}{Types of anchors}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Cast-in-place anchors}{subsection.1.2}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Post-installed anchors}{subsection.1.2}% 6
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Types of post-installed anchors}{subsection.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.3}{Loading and failure modes}{section.1}% 8
+\BOOKMARK [1][-]{section.2}{Thermosetting polymers}{}% 9
+\BOOKMARK [2][-]{subsection.2.1}{Thermosetting polymers used with anchors}{section.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Vinyl-ester systems}{subsection.2.1}% 11
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Epoxy systems}{subsection.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.2}{Numerical description of thermosetting polymers}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.3}{Material properties}{section.2}% 14
+\BOOKMARK [1][-]{section.3}{Computational modeling}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Finite element method}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Drucker-prager model of plasticity}{section.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Drucker-Prager yield surface}{subsection.3.2}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Hardening and softening modulus}{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Calculation procedure and implementation}{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Apex problem}{subsection.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.3}{Curing model}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.4}{Serially connected models}{section.3}% 23
+\BOOKMARK [1][-]{section.4}{Results}{}% 24
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 25

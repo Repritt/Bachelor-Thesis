@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{anchors-ACI-318M}
 ACI, ``Building code requirements for structural concrete,'' Tech. Rep.
@@ -17,11 +17,31 @@ J.-P. Pascault, H.~Sautereau, J.~Verdu, and R.~J. Williams, {\em Thermosetting
   polymers}, vol.~64.
 \newblock CRC Press, 2002.
 
+\bibitem{geofem}
+M.~Sejnoha, {\em GEO FEM - Theoretical manual}.
+\newblock FINE Ltd., 2009.
+
 \bibitem{mars}
 ES3, ``Mars - modeling and analysis of the response structures.''
 
-\bibitem{geofem}
-M.~Sejnoha, {\em GEO FEM - Theoretical manual}.
-\newblock FINE Ltd. 1999–2009, 2009.
+\bibitem{dhatt2012finite}
+G.~Dhatt, E.~Lefran{\~A}, G.~Touzot, {\em et~al.}, {\em Finite element method}.
+\newblock John Wiley \& Sons, 2012.
+
+\bibitem{heinrich2012generation}
+C.~Heinrich, M.~Aldridge, A.~S. Wineman, J.~Kieffer, A.~M. Waas, and K.~W.
+  Shahwan, ``Generation of heat and stress during the cure of polymers used in
+  fiber composites,'' {\em International Journal of Engineering Science},
+  vol.~53, pp.~85--111, 2012.
+
+\bibitem{di2007symmetric}
+G.~Di~Luzio, ``A symmetric over-nonlocal microplane model m4 for fracture in
+  concrete,'' {\em International journal of solids and structures}, vol.~44,
+  no.~13, pp.~4418--4441, 2007.
+
+\bibitem{popelar1997multiaxial}
+C.~F. Popelar and K.~Liechti, ``Multiaxial nonlinear viscoelastic
+  characterization and modeling of a structural adhesive,'' {\em Journal of
+  Engineering Materials and Technology}, vol.~119, no.~3, pp.~205--210, 1997.
 
 \end{thebibliography}

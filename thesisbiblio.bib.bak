@@ -9,6 +9,7 @@
   title       = {Building code requirements for structural concrete},
   institution = {ACI},
   year        = {2008},
+  number      = {318M-08},
   journal     = {ACI 318M-08},
 }
 
@@ -40,7 +41,7 @@
 @Manual{geofem,
   title        = {GEO FEM - Theoretical manual},
   author       = {Michal Sejnoha},
-  organization = {FINE Ltd. 1999–2009},
+  organization = {FINE Ltd.},
   year         = {2009},
 }
 
@@ -51,12 +52,52 @@
 }
 
 @Book{thermosetting_polymers,
-  title         = {Thermosetting polymers},
-  publisher     = {CRC Press},
-  year          = {2002},
-  author        = {Pascault, Jean-Pierre and Sautereau, Henry and Verdu, Jacques and Williams, Roberto JJ},
-  volume        = {64},
+  title     = {Thermosetting polymers},
+  publisher = {CRC Press},
+  year      = {2002},
+  author    = {Pascault, Jean-Pierre and Sautereau, Henry and Verdu, Jacques and Williams, Roberto JJ},
+  volume    = {64},
+}
+
+@Book{dhatt2012finite,
+  title     = {Finite element method},
+  publisher = {John Wiley \& Sons},
+  year      = {2012},
+  author    = {Dhatt, Gouri and Lefran{\~A}, Emmanuel and Touzot, Gilbert and others},
+}
+
+@Article{heinrich2012generation,
+  author    = {Heinrich, Christian and Aldridge, Michael and Wineman, Alan S and Kieffer, John and Waas, Anthony M and Shahwan, Khaled W},
+  title     = {Generation of heat and stress during the cure of polymers used in fiber composites},
+  journal   = {International Journal of Engineering Science},
+  year      = {2012},
+  volume    = {53},
+  pages     = {85--111},
+  publisher = {Pergamon},
+}
+
+@Article{di2007symmetric,
+  author        = {Di Luzio, Giovanni},
+  title         = {A symmetric over-nonlocal microplane model M4 for fracture in concrete},
+  journal       = {International journal of solids and structures},
+  year          = {2007},
+  volume        = {44},
+  number        = {13},
+  pages         = {4418--4441},
+  __markedentry = {[janvo:]},
+  publisher     = {Elsevier},
+}
+
+@Article{popelar1997multiaxial,
+  author        = {Popelar, Carl Frank and Liechti, KM},
+  title         = {Multiaxial nonlinear viscoelastic characterization and modeling of a structural adhesive},
+  journal       = {Journal of Engineering Materials and Technology},
+  year          = {1997},
+  volume        = {119},
+  number        = {3},
+  pages         = {205--210},
   __markedentry = {[janvo:6]},
+  publisher     = {American Society of Mechanical Engineers},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

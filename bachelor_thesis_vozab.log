@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.4)  13 MAR 2018 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.4)  21 MAY 2018 22:26
 entering extended mode
 **./bachelor_thesis_vozab.tex
 (bachelor_thesis_vozab.tex
@@ -783,6 +783,1535 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen148
 \l_MT_below_shortintertext_sep=\dimen149
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count127
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box30
+)
+\tc@llx=\dimen150
+\tc@lly=\dimen151
+\tc@urx=\dimen152
+\tc@ury=\dimen153
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen154
+\adjbox@Height=\dimen155
+\adjbox@Depth=\dimen156
+\adjbox@Totalheight=\dimen157
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count128
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box31
+\sift@deathcycles=\count129
+\@vwid@loff=\dimen158
+\@vwid@roff=\dimen159
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count130
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\boxhandler\boxhandler.sty"
+Package: boxhandler 2012/10/18 v1.30 Tools for Optimizing Captions, Presentatio
+n, and Placement of Tables and Figures
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pbox\pbox.sty"
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+\pb@xlen=\skip68
+)
+\c@TableIndex=\count131
+\c@FigureIndex=\count132
+\c@TableClearedIndex=\count133
+\c@FigureClearedIndex=\count134
+\oldabovecaptionskip=\skip69
+\oldbelowcaptionskip=\skip70
+\captionGap=\skip71
+\TableDeadMargin=\skip72
+\FigureDeadMargin=\skip73
+\c@abovecaptionskipterm=\count135
+\c@belowcaptionskipterm=\count136
+\@minCaptionBoxWidth=\skip74
+\@minCaptionBoxWidthDefault=\skip75
+\@maxCaptionBoxWidth=\skip76
+\@maxCaptionBoxWidthDefault=\skip77
+\c@promptTablesFlag=\count137
+\c@promptFiguresFlag=\count138
+\DeadMargin=\skip78
+\@DataBoxWidth=\skip79
+\CaptionBoxWidth=\skip80
+\@DataBoxOffset=\skip81
+\@CaptionBoxOffset=\skip82
+\@captionIDwidth=\skip83
+\@captionWidth=\skip84
+\@DataBoxSurplus=\skip85
+\c@lofInvocations=\count139
+\c@lofPrints=\count140
+\c@lotInvocations=\count141
+\c@lotPrints=\count142
+\hyper@shift=\skip86
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen160
+\AM@pageheight=\dimen161
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box32
+\AM@global@opts=\toks33
+\AM@toc@title=\toks34
+\c@AM@survey=\count143
+\AM@templatesizebox=\box33
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\physics\physics.sty"
+Package: physics 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+Package: expl3 2018-04-30 L3 programming layer (loader) 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+Package: expl3 2018-04-30 L3 programming layer (code)
+\c_max_int=\count144
+\l_tmpa_int=\count145
+\l_tmpb_int=\count146
+\g_tmpa_int=\count147
+\g_tmpb_int=\count148
+\g__kernel_prg_map_int=\count149
+\c_log_iow=\count150
+\l_iow_line_count_int=\count151
+\l__iow_line_target_int=\count152
+\l__iow_one_indent_int=\count153
+\l__iow_indent_int=\count154
+\c_zero_dim=\dimen162
+\c_max_dim=\dimen163
+\l_tmpa_dim=\dimen164
+\l_tmpb_dim=\dimen165
+\g_tmpa_dim=\dimen166
+\g_tmpb_dim=\dimen167
+\c_zero_skip=\skip87
+\c_max_skip=\skip88
+\l_tmpa_skip=\skip89
+\l_tmpb_skip=\skip90
+\g_tmpa_skip=\skip91
+\g_tmpb_skip=\skip92
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count155
+\c__fp_leading_shift_int=\count156
+\c__fp_middle_shift_int=\count157
+\c__fp_trailing_shift_int=\count158
+\c__fp_big_leading_shift_int=\count159
+\c__fp_big_middle_shift_int=\count160
+\c__fp_big_trailing_shift_int=\count161
+\c__fp_Bigg_leading_shift_int=\count162
+\c__fp_Bigg_middle_shift_int=\count163
+\c__fp_Bigg_trailing_shift_int=\count164
+\c__fp_rand_size_int=\count165
+\c__fp_rand_four_int=\count166
+\c__fp_rand_eight_int=\count167
+\c__intarray_sp_dim=\dimen168
+\g__intarray_font_int=\count168
+\l__sort_length_int=\count169
+\l__sort_min_int=\count170
+\l__sort_top_int=\count171
+\l__sort_max_int=\count172
+\l__sort_true_max_int=\count173
+\l__sort_block_int=\count174
+\l__sort_begin_int=\count175
+\l__sort_end_int=\count176
+\l__sort_A_int=\count177
+\l__sort_B_int=\count178
+\l__sort_C_int=\count179
+\l__tl_analysis_normal_int=\count180
+\l__tl_analysis_index_int=\count181
+\l__tl_analysis_nesting_int=\count182
+\l__tl_analysis_type_int=\count183
+\l__regex_internal_a_int=\count184
+\l__regex_internal_b_int=\count185
+\l__regex_internal_c_int=\count186
+\l__regex_balance_int=\count187
+\l__regex_group_level_int=\count188
+\l__regex_mode_int=\count189
+\c__regex_cs_in_class_mode_int=\count190
+\c__regex_cs_mode_int=\count191
+\l__regex_catcodes_int=\count192
+\l__regex_default_catcodes_int=\count193
+\c__regex_catcode_D_int=\count194
+\c__regex_catcode_S_int=\count195
+\c__regex_catcode_L_int=\count196
+\c__regex_catcode_O_int=\count197
+\c__regex_catcode_A_int=\count198
+\c__regex_all_catcodes_int=\count199
+\l__regex_show_lines_int=\count266
+\l__regex_min_state_int=\count267
+\l__regex_max_state_int=\count268
+\l__regex_left_state_int=\count269
+\l__regex_right_state_int=\count270
+\l__regex_capturing_group_int=\count271
+\l__regex_min_pos_int=\count272
+\l__regex_max_pos_int=\count273
+\l__regex_curr_pos_int=\count274
+\l__regex_start_pos_int=\count275
+\l__regex_success_pos_int=\count276
+\l__regex_curr_char_int=\count277
+\l__regex_curr_catcode_int=\count278
+\l__regex_last_char_int=\count279
+\l__regex_case_changed_char_int=\count280
+\l__regex_curr_state_int=\count281
+\l__regex_step_int=\count282
+\l__regex_min_active_int=\count283
+\l__regex_max_active_int=\count284
+\l__regex_replacement_csnames_int=\count285
+\l__regex_match_count_int=\count286
+\l__regex_min_submatch_int=\count287
+\l__regex_submatch_int=\count288
+\l__regex_zeroth_submatch_int=\count289
+\g__regex_trace_regex_int=\count290
+\c_empty_box=\box34
+\l_tmpa_box=\box35
+\l_tmpb_box=\box36
+\g_tmpa_box=\box37
+\g_tmpb_box=\box38
+\l__box_top_dim=\dimen169
+\l__box_bottom_dim=\dimen170
+\l__box_left_dim=\dimen171
+\l__box_right_dim=\dimen172
+\l__box_top_new_dim=\dimen173
+\l__box_bottom_new_dim=\dimen174
+\l__box_left_new_dim=\dimen175
+\l__box_right_new_dim=\dimen176
+\l__box_internal_box=\box39
+\l__coffin_internal_box=\box40
+\l__coffin_internal_dim=\dimen177
+\l__coffin_offset_x_dim=\dimen178
+\l__coffin_offset_y_dim=\dimen179
+\l__coffin_x_dim=\dimen180
+\l__coffin_y_dim=\dimen181
+\l__coffin_x_prime_dim=\dimen182
+\l__coffin_y_prime_dim=\dimen183
+\c_empty_coffin=\box41
+\l__coffin_aligned_coffin=\box42
+\l__coffin_aligned_internal_coffin=\box43
+\l_tmpa_coffin=\box44
+\l_tmpb_coffin=\box45
+\l__coffin_display_coffin=\box46
+\l__coffin_display_coord_coffin=\box47
+\l__coffin_display_pole_coffin=\box48
+\l__coffin_display_offset_dim=\dimen184
+\l__coffin_display_x_dim=\dimen185
+\l__coffin_display_y_dim=\dimen186
+\g__file_internal_ior=\read1
+\l__coffin_bounding_shift_dim=\dimen187
+\l__coffin_left_corner_dim=\dimen188
+\l__coffin_right_corner_dim=\dimen189
+\l__coffin_bottom_corner_dim=\dimen190
+\l__coffin_top_corner_dim=\dimen191
+\l__coffin_scaled_total_height_dim=\dimen192
+\l__coffin_scaled_width_dim=\dimen193
+\l__seq_internal_a_int=\count291
+\l__seq_internal_b_int=\count292
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
+File: l3pdfmode.def 2018-04-30 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count293
+))
+Package: xparse 2018-04-30 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count294
+\g__xparse_grabber_int=\count295
+\l__xparse_m_args_int=\count296
+\l__xparse_mandatory_args_int=\count297
+\l__xparse_v_nesting_int=\count298
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vnabla with sig. '' on line 25.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \varE with sig. '' on line 29.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ordersymbol with sig. '' on line 30.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \quantity with sig. '' on line 35.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@quantity with sig. ' t\big t\Big t\bigg t\Bigg g o d()
+. d|| ' on line 62.
+.................................................
+
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\big ' for the command '\@quantity' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Big ' for the command '\@quantity' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\bigg ' for the command '\@quantity' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Bigg ' for the command '\@quantity' should be a single
+* character.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qty with sig. '' on line 63.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pqty with sig. ' l m ' on line 64.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bqty with sig. ' l m ' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Bqty with sig. ' l m ' on line 66.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vqty with sig. ' l m ' on line 67.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pmqty with sig. 'm' on line 70.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Pmqty with sig. 'm' on line 71.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bmqty with sig. 'm' on line 72.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vmqty with sig. 'm' on line 73.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixquantity with sig. '' on line 74.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@matrixquantity with sig. ' s g o d() d|| ' on line 100.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mqty with sig. '' on line 101.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixdeterminant with sig. 'm' on line 102.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mdet with sig. '' on line 103.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \spmqty with sig. 'm' on line 105.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sPmqty with sig. 'm' on line 106.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sbmqty with sig. 'm' on line 107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \svmqty with sig. 'm' on line 108.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smallmatrixquantity with sig. ' s g o d() d|| ' on line
+. 133.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smqty with sig. '' on line 134.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smallmatrixdeterminant with sig. 'm' on line 135.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smdet with sig. '' on line 136.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \argopen with sig. 's' on line 138.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \argclose with sig. 's' on line 139.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \braces with sig. '' on line 141.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@braces with sig. ' s t\big t\Big t\bigg t\Bigg m m m ' on
+. line 156.
+.................................................
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\big ' for the command '\@braces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Big ' for the command '\@braces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\bigg ' for the command '\@braces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Bigg ' for the command '\@braces' should be a single
+* character.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fbraces with sig. ' s t\big t\Big t\bigg t\Bigg m m m m '
+. on line 174.
+.................................................
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\big ' for the command '\fbraces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Big ' for the command '\fbraces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\bigg ' for the command '\fbraces' should be a single
+* character.
+*************************************************
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\Bigg ' for the command '\fbraces' should be a single
+* character.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \absolutevalue with sig. ' l m ' on line 176.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \abs with sig. '' on line 177.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \norm with sig. ' l m ' on line 178.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \order with sig. ' l m ' on line 179.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \evaluated with sig. ' s g d[| d(| ' on line 194.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \eval with sig. '' on line 195.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \poissonbracket with sig. ' l m m ' on line 197.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pb with sig. '' on line 198.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \commutator with sig. ' l m m ' on line 201.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \comm with sig. '' on line 202.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \anticommutator with sig. ' l m m ' on line 203.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acommutator with sig. '' on line 204.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acomm with sig. '' on line 205.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vectorbold with sig. ' s m ' on line 208.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vb with sig. '' on line 209.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vectorarrow with sig. ' s m ' on line 211.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \va with sig. '' on line 212.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vectorunit with sig. ' s m ' on line 214.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vu with sig. '' on line 215.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dotproduct with sig. '' on line 217.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vdot with sig. '' on line 218.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \crossproduct with sig. '' on line 220.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cross with sig. '' on line 221.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cp with sig. '' on line 222.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \gradient with sig. ' g o d() ' on line 232.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \grad with sig. '' on line 233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \divergence with sig. ' g o d() ' on line 243.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \div with sig. '' on line 246.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \curl with sig. ' g o d() ' on line 256.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \laplacian with sig. ' g o d() ' on line 266.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \principalvalue with sig. 'g' on line 274.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pv with sig. '' on line 275.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \PV with sig. 'g' on line 276.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \Re with sig. 'g' on line 277.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \Im with sig. 'g' on line 278.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \opbraces with sig. ' m g o d() ' on line 299.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \trigbraces with sig. ' m o d() ' on line 305.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \sin with sig. '' on line 309.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \cos with sig. '' on line 310.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \tan with sig. '' on line 311.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \csc with sig. '' on line 312.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \sec with sig. '' on line 313.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \cot with sig. '' on line 314.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \arcsin with sig. '' on line 316.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \arccos with sig. '' on line 317.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \arctan with sig. '' on line 318.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arccsc with sig. '' on line 320.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arcsec with sig. '' on line 322.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arccot with sig. '' on line 324.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \asin with sig. '' on line 327.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acos with sig. '' on line 329.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \atan with sig. '' on line 331.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acsc with sig. '' on line 333.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \asec with sig. '' on line 335.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acot with sig. '' on line 337.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \sinh with sig. '' on line 339.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \cosh with sig. '' on line 340.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \tanh with sig. '' on line 341.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \csch with sig. '' on line 343.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sech with sig. '' on line 345.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \coth with sig. '' on line 346.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \exp with sig. '' on line 348.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \log with sig. '' on line 349.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \ln with sig. '' on line 350.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \det with sig. '' on line 351.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \Pr with sig. '' on line 352.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tr with sig. '' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Tr with sig. '' on line 354.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Res with sig. '' on line 355.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qqtext with sig. ' s m ' on line 377.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qq with sig. '' on line 378.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qcomma with sig. '' on line 380.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qc with sig. '' on line 381.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qif with sig. 's' on line 383.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qthen with sig. 's' on line 384.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qelse with sig. 's' on line 385.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qotherwise with sig. 's' on line 386.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qunless with sig. 's' on line 387.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qgiven with sig. 's' on line 388.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qusing with sig. 's' on line 389.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qassume with sig. 's' on line 390.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qsince with sig. 's' on line 391.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qlet with sig. 's' on line 392.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qfor with sig. 's' on line 393.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qall with sig. 's' on line 394.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qeven with sig. 's' on line 395.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qodd with sig. 's' on line 396.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qinteger with sig. 's' on line 397.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qand with sig. 's' on line 398.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qor with sig. 's' on line 399.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qas with sig. 's' on line 400.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qin with sig. 's' on line 401.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qcc with sig. 's' on line 402.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \differential with sig. ' o g d() ' on line 415.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dd with sig. '' on line 416.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \derivative with sig. ' s o m g d() ' on line 435.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dv with sig. '' on line 436.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \partialderivative with sig. ' s o m g g d() ' on line 460.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pderivative with sig. '' on line 461.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pdv with sig. '' on line 462.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \variation with sig. ' o g d() ' on line 474.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \var with sig. '' on line 475.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \functionalderivative with sig. ' s o m g d() ' on line
+. 494.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fderivative with sig. '' on line 495.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fdv with sig. '' on line 496.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bra with sig. ' s m t\ket s g ' on line 526.
+.................................................
+*************************************************
+* LaTeX warning: "xparse/not-single-char"
+* 
+* Argument delimiter '\ket ' for the command '\bra' should be a single
+* character.
+*************************************************
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ket with sig. ' s m ' on line 533.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \innerproduct with sig. ' s m g ' on line 548.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \braket with sig. '' on line 549.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ip with sig. '' on line 550.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \outerproduct with sig. ' s m g ' on line 565.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dyad with sig. '' on line 566.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \op with sig. '' on line 567.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ketbra with sig. '' on line 568.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \expectationvalue with sig. ' s s m g ' on line 587.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \expval with sig. '' on line 588.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ev with sig. '' on line 589.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vev with sig. ' m ' on line 590.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixelement with sig. ' s s m m m ' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixel with sig. '' on line 602.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mel with sig. '' on line 603.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \identitymatrix with sig. 'm' on line 633.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \imat with sig. '' on line 634.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xmatrix with sig. ' s m m m ' on line 659.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xmat with sig. '' on line 660.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zeromatrix with sig. ' m g ' on line 662.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zmat with sig. '' on line 663.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \paulixmatrix with sig. '' on line 665.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pauliymatrix with sig. '' on line 666.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \paulizmatrix with sig. '' on line 667.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \paulimatrix with sig. 'm' on line 678.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pmat with sig. '' on line 679.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \diagonalmatrix with sig. 'O{} >{\SplitList {,}}m ' on line
+. 681.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@dmat with sig. 'mmggggggg' on line 714.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dmat with sig. '' on line 715.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \antidiagonalmatrix with sig. 'O{} >{\SplitList {,}}m ' on
+. line 717.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@admat with sig. 'mmggggggg' on line 750.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \admat with sig. '' on line 751.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \flatfrac with sig. ' m m ' on line 754.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \homework with sig. '' on line 764.
+.................................................
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\breqn\breqn.sty"
+Package: breqn 2017/01/27 v0.98e Breaking equations
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\breqn\flexisym.sty"
+Package: flexisym 2017/01/27 v0.98e Make math characters macros
+LaTeX Info: Redefining \textprime on input line 300.
+LaTeX Info: Redefining \not on input line 358.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\breqn\cmbase.sym"
+File: cmbase.sym 2007/12/19 v0.92
+LaTeX Info: Redefining \hbar on input line 325.
+LaTeX Info: Redefining \surd on input line 327.
+LaTeX Info: Redefining \angle on input line 335.
+LaTeX Info: Redefining \neq on input line 336.
+LaTeX Info: Redefining \mapsto on input line 337.
+LaTeX Info: Redefining \cong on input line 338.
+LaTeX Info: Redefining \notin on input line 341.
+LaTeX Info: Redefining \rightleftharpoons on input line 342.
+LaTeX Info: Redefining \doteq on input line 343.
+LaTeX Info: Redefining \hookrightarrow on input line 344.
+LaTeX Info: Redefining \hookleftarrow on input line 345.
+LaTeX Info: Redefining \bowtie on input line 346.
+LaTeX Info: Redefining \models on input line 347.
+LaTeX Info: Redefining \Longrightarrow on input line 348.
+LaTeX Info: Redefining \longrightarrow on input line 349.
+LaTeX Info: Redefining \Longleftarrow on input line 350.
+LaTeX Info: Redefining \longleftarrow on input line 351.
+LaTeX Info: Redefining \longmapsto on input line 352.
+LaTeX Info: Redefining \longleftrightarrow on input line 353.
+LaTeX Info: Redefining \Longleftrightarrow on input line 354.
+LaTeX Info: Redefining \cdots on input line 358.
+LaTeX Info: Redefining \vdots on input line 361.
+LaTeX Info: Redefining \ddots on input line 366.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\breqn\mathstyle.sty"
+Package: mathstyle 2017/01/27 0.98e Tracking mathstyle implicitly
+LaTeX Info: Redefining \displaystyle on input line 93.
+LaTeX Info: Redefining \textstyle on input line 95.
+LaTeX Info: Redefining \scriptstyle on input line 97.
+LaTeX Info: Redefining \scriptscriptstyle on input line 99.
+LaTeX Info: Redefining \genfrac on input line 145.
+))
+\inf@bad=\count299
+\maxint=\count300
+\listwidth=\dimen194
+\eqnumsep=\dimen195
+\eqmargin=\dimen196
+\eqlinespacing=\skip93
+\eqlineskip=\skip94
+\eqlineskiplimit=\dimen197
+\eqbinoffset=\muskip18
+\eqdelimoffset=\muskip19
+\eqindentstep=\dimen198
+\eqstyle=\toks35
+\eqbreakdepth=\count301
+\eqinterlinepenalty=\count302
+\intereqpenalty=\count303
+\intereqskip=\skip95
+\prerelpenalty=\count304
+\prebinoppenalty=\count305
+\Dmedmuskip=\muskip20
+\Dthickmuskip=\muskip21
+\eqleftskip=\skip96
+\eqrightskip=\skip97
+\eq@vspan=\skip98
+\eq@binoffset=\muskip22
+\EQ@box=\box49
+\EQ@copy=\box50
+\EQ@numbox=\box51
+\eq@wdNum=\dimen199
+\GRP@numbox=\box52
+\grp@wdNum=\dimen256
+\eq@lines=\count306
+\eq@curline=\count307
+\eq@badness=\count308
+\EQ@vims=\count309
+\eq@dp=\dimen257
+\eq@wdL=\dimen258
+\eq@wdT=\dimen259
+\eq@wdMin=\dimen260
+\grp@wdL=\dimen261
+\grp@wdR=\dimen262
+\grp@wdT=\dimen263
+\eq@wdRmax=\dimen264
+\eq@firstht=\dimen265
+\eq@wdCond=\dimen266
+\eq@indentstep=\dimen267
+\eq@linewidth=\dimen268
+\grp@linewidth=\dimen269
+\eq@hshift=\dimen270
+\eq@given@sidespace=\dimen271
+\mathindent=\dimen272
+\eq@final@linecount=\count310
+\eq@wdR=\dimen273
+\EQ@continue=\toks36
+\lr@level=\count311
+\GRP@queue=\toks37
+\GRP@box=\box53
+\GRP@wholebox=\box54
+\darraycolsep=\skip99
+\cur@row=\count312
+\cur@col=\count313
+\conditionsep=\skip100
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
+Package: siunitx 2018-05-02 v2.7o A comprehensive (SI) units package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
+Package: l3keys2e 2018-04-30 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box55
+\l__siunitx_tmp_dim=\dimen274
+\l__siunitx_tmp_int=\count314
+\l__siunitx_number_mantissa_length_int=\count315
+\l__siunitx_number_uncert_length_int=\count316
+\l__siunitx_round_int=\count317
+\l__siunitx_process_decimal_int=\count318
+\l__siunitx_process_uncertainty_int=\count319
+\l__siunitx_process_fixed_int=\count320
+\l__siunitx_process_integer_min_int=\count321
+\l__siunitx_process_precision_int=\count322
+\l__siunitx_group_min_int=\count323
+\l__siunitx_angle_marker_box=\box56
+\l__siunitx_angle_unit_box=\box57
+\l__siunitx_angle_marker_dim=\dimen275
+\l__siunitx_angle_unit_dim=\dimen276
+\l__siunitx_unit_int=\count324
+\l__siunitx_unit_denominator_int=\count325
+\l__siunitx_unit_numerator_int=\count326
+\l__siunitx_unit_prefix_int=\count327
+\l__siunitx_unit_prefix_base_int=\count328
+\l__siunitx_unit_prefix_gram_int=\count329
+\l__siunitx_number_product_int=\count330
+\c__siunitx_one_fill_skip=\skip101
+\l__siunitx_table_unit_align_skip=\skip102
+\l__siunitx_table_exponent_dim=\dimen277
+\l__siunitx_table_integer_dim=\dimen278
+\l__siunitx_table_mantissa_dim=\dimen279
+\l__siunitx_table_marker_dim=\dimen280
+\l__siunitx_table_result_dim=\dimen281
+\l__siunitx_table_uncert_dim=\dimen282
+\l__siunitx_table_fill_pre_dim=\dimen283
+\l__siunitx_table_fill_post_dim=\dimen284
+\l__siunitx_table_fill_mid_dim=\dimen285
+\l__siunitx_table_pre_box=\box58
+\l__siunitx_table_post_box=\box59
+\l__siunitx_table_mantissa_box=\box60
+\l__siunitx_table_result_box=\box61
+\l__siunitx_table_number_align_skip=\skip103
+\l__siunitx_table_text_align_skip=\skip104
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7244.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7247.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7250.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7253.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7256.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7259.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7262.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7277.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7286.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7295.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7304.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7316.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7328.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7340.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7343.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7358.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7370.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numInBookmark with sig. 'om' on line 7417.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrangeInBookmark with sig. 'omm' on line 7419.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIInBookmark with sig. 'omom' on line 7421.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlistInBookmark with sig. 'omm' on line 7423.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7425.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \siInBookmark with sig. 'om' on line 7426.
+.................................................
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator.sty"
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks38
+\footnotemargin=\dimen286
+\c@pp@next@reset=\count331
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\perpage.sty"
+Package: perpage 2014/10/25 2.0 Reset/sort counters per page
+\c@abspage=\count332
+)
+\c@pp@a@footnote=\count333
 \@nomenclaturefile=\write4
 \openout4 = `bachelor_thesis_vozab.nlo'.
 
@@ -790,65 +2319,340 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 Writing nomenclature file bachelor_thesis_vozab.nlo
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box30
-\beforetitleunit=\skip68
-\aftertitleunit=\skip69
-\ttl@plus=\dimen150
-\ttl@minus=\dimen151
-\ttl@toksa=\toks31
-\titlewidth=\dimen152
-\titlewidthlast=\dimen153
-\titlewidthfirst=\dimen154
+\ttl@box=\box62
+\beforetitleunit=\skip105
+\aftertitleunit=\skip106
+\ttl@plus=\dimen287
+\ttl@minus=\dimen288
+\ttl@toksa=\toks39
+\titlewidth=\dimen289
+\titlewidthlast=\dimen290
+\titlewidthfirst=\dimen291
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks40
+\pgfutil@tempdima=\dimen292
+\pgfutil@tempdimb=\dimen293
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
+x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
+\pgfutil@abb=\box63
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
+x"
+\pgfkeys@tmptoks=\toks43
+))
+\pgf@x=\dimen294
+\pgf@y=\dimen295
+\pgf@xa=\dimen296
+\pgf@ya=\dimen297
+\pgf@xb=\dimen298
+\pgf@yb=\dimen299
+\pgf@xc=\dimen300
+\pgf@yc=\dimen301
+\w@pgf@writea=\write5
+\r@pgf@reada=\read2
+\c@pgf@counta=\count334
+\c@pgf@countb=\count335
+\c@pgf@countc=\count336
+\c@pgf@countd=\count337
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
+ex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count338
+\pgfsyssoftpath@bigbuffer@items=\count339
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
+ex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+ ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen302
+\pgfmath@count=\count340
+\pgfmath@box=\box64
+\pgfmath@toks=\toks47
+\pgfmath@stack@operand=\toks48
+\pgfmath@stack@operation=\toks49
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
+ic.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
+.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
+code.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
+tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
+ex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
+hmetics.code.tex")))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count341
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen303
+\pgf@picmaxx=\dimen304
+\pgf@picminy=\dimen305
+\pgf@picmaxy=\dimen306
+\pgf@pathminx=\dimen307
+\pgf@pathmaxx=\dimen308
+\pgf@pathminy=\dimen309
+\pgf@pathmaxy=\dimen310
+\pgf@xx=\dimen311
+\pgf@xy=\dimen312
+\pgf@yx=\dimen313
+\pgf@yy=\dimen314
+\pgf@zx=\dimen315
+\pgf@zy=\dimen316
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
+ode.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen317
+\pgf@path@lasty=\dimen318
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
+tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen319
+\pgf@shorten@start@additional=\dimen320
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box65
+\pgf@hbox=\box66
+\pgf@layerbox@main=\box67
+\pgf@picture@serial@count=\count342
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
+de.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen321
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
+.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen322
+\pgf@pt@y=\dimen323
+\pgf@pt@temp=\dimen324
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
+x"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
+code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen325
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen326
+\pgf@sys@shading@range@num=\count343
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
+x"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
+ex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box68
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
+de.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
+ex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box69
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
+sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen327
+\pgf@nodesepend=\dimen328
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
+sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen329
+\pgffor@skip=\dimen330
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
+code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count344
+\pgfplotmarksize=\dimen331
+)
+\tikz@lastx=\dimen332
+\tikz@lasty=\dimen333
+\tikz@lastxsaved=\dimen334
+\tikz@lastysaved=\dimen335
+\tikzleveldistance=\dimen336
+\tikzsiblingdistance=\dimen337
+\tikz@figbox=\box70
+\tikz@figbox@bg=\box71
+\tikz@tempbox=\box72
+\tikz@tempbox@bg=\box73
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
+)
+\tikz@expandcount=\count352
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+librarypositioning.code.tex"
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+\c@@todonotes@numberoftodonotes=\count353
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks52
+\verbatim@line=\toks53
+\verbatim@in@stream=\read3
 )
 (bachelor_thesis_vozab.aux)
 \openout1 = `bachelor_thesis_vozab.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
-\scratchdimen=\dimen155
-\scratchbox=\box31
-\nofMPsegments=\count128
-\nofMParguments=\count129
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count130
-\MPscratchDim=\dimen156
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count354
+\scratchdimen=\dimen338
+\scratchbox=\box74
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count357
+\MPscratchDim=\dimen339
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks55
 )
-\AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 114.
+\AtBeginShipoutBox=\box75
+Package hyperref Info: Link coloring OFF on input line 156.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count133
+\c@section@level=\count360
 )
-LaTeX Info: Redefining \ref on input line 114.
-LaTeX Info: Redefining \pageref on input line 114.
-LaTeX Info: Redefining \nameref on input line 114.
+LaTeX Info: Redefining \ref on input line 156.
+LaTeX Info: Redefining \pageref on input line 156.
+LaTeX Info: Redefining \nameref on input line 156.
 
 (bachelor_thesis_vozab.out) (bachelor_thesis_vozab.out)
-\@outlinefile=\write5
-\openout5 = `bachelor_thesis_vozab.out'.
+\@outlinefile=\write6
+\openout6 = `bachelor_thesis_vozab.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -874,8 +2678,8 @@ Package caption Info: End \AtBeginDocument code.
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=95.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=3.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -887,63 +2691,313 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package epstopdf Info: Source file: <lev.eps>
-(epstopdf)                    date: 2008-03-22 16:09:50
-(epstopdf)                    size: 195581 bytes
-(epstopdf)             Output file: <lev-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-16 13:10:40
-(epstopdf)                    size: 36104 bytes
-(epstopdf)             Command: <epstopdf --outfile=lev-eps-converted-to.pdf le
-v.eps>
-(epstopdf)             \includegraphics on input line 128.
-Package epstopdf Info: Output file is already uptodate.
-<lev-eps-converted-to.pdf, id=23, 194.7275pt x 149.55875pt>
-File: lev-eps-converted-to.pdf Graphic file (type pdf)
-<use lev-eps-converted-to.pdf>
-Package pdftex.def Info: lev-eps-converted-to.pdf  used on input line 128.
-(pdftex.def)             Requested size: 142.26378pt x 109.26825pt.
-[1
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
 
-{C:/Users/janvo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./lev-eps-c
-onverted-to.pdf>]
-Package epstopdf Info: Source file: <lev.eps>
-(epstopdf)                    date: 2008-03-22 16:09:50
-(epstopdf)                    size: 195581 bytes
-(epstopdf)             Output file: <lev-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-16 13:10:40
-(epstopdf)                    size: 36104 bytes
-(epstopdf)             Command: <epstopdf --outfile=lev-eps-converted-to.pdf le
-v.eps>
-(epstopdf)             \includegraphics on input line 153.
-Package epstopdf Info: Output file is already uptodate.
-File: lev-eps-converted-to.pdf Graphic file (type pdf)
-<use lev-eps-converted-to.pdf>
-Package pdftex.def Info: lev-eps-converted-to.pdf  used on input line 153.
-(pdftex.def)             Requested size: 142.26378pt x 109.26825pt.
- [2] (bachelor_thesis_vozab.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-
+English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg"
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for U+msa on input line 156.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 156.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write6
-\openout6 = `bachelor_thesis_vozab.toc'.
+)
+Package epstopdf Info: Source file: <lev_novy.eps>
+(epstopdf)                    date: 2018-04-15 20:00:11
+(epstopdf)                    size: 20917 bytes
+(epstopdf)             Output file: <lev_novy-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-04-15 20:00:30
+(epstopdf)                    size: 9712 bytes
+(epstopdf)             Command: <epstopdf --outfile=lev_novy-eps-converted-to.p
+df lev_novy.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+<lev_novy-eps-converted-to.pdf, id=106, 95.35625pt x 73.27374pt>
+File: lev_novy-eps-converted-to.pdf Graphic file (type pdf)
+<use lev_novy-eps-converted-to.pdf>
+Package pdftex.def Info: lev_novy-eps-converted-to.pdf  used on input line 169.
+
+(pdftex.def)             Requested size: 142.26378pt x 109.33228pt.
+ [1
+
+{C:/Users/janvo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./lev_novy-
+eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <lev_novy.eps>
+(epstopdf)                    date: 2018-04-15 20:00:11
+(epstopdf)                    size: 20917 bytes
+(epstopdf)             Output file: <lev_novy-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-04-15 20:00:30
+(epstopdf)                    size: 9712 bytes
+(epstopdf)             Command: <epstopdf --outfile=lev_novy-eps-converted-to.p
+df lev_novy.eps>
+(epstopdf)             \includegraphics on input line 194.
+Package epstopdf Info: Output file is already uptodate.
+File: lev_novy-eps-converted-to.pdf Graphic file (type pdf)
+<use lev_novy-eps-converted-to.pdf>
+Package pdftex.def Info: lev_novy-eps-converted-to.pdf  used on input line 194.
+
+(pdftex.def)             Requested size: 142.26378pt x 109.33228pt.
+ [2]
+<zadani.pdf, id=122, 597.23125pt x 844.15375pt>
+File: zadani.pdf Graphic file (type pdf)
+<use zadani.pdf>
+Package pdftex.def Info: zadani.pdf  used on input line 216.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+File: zadani.pdf Graphic file (type pdf)
+<use zadani.pdf>
+Package pdftex.def Info: zadani.pdf  used on input line 216.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+<zadani.pdf, id=125, page=1, 597.23125pt x 844.15375pt>
+File: zadani.pdf Graphic file (type pdf)
+<use zadani.pdf, page 1>
+Package pdftex.def Info: zadani.pdf , page1 used on input line 216.
+(pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
+File: zadani.pdf Graphic file (type pdf)
+<use zadani.pdf, page 1>
+Package pdftex.def Info: zadani.pdf , page1 used on input line 216.
+(pdftex.def)             Requested size: 597.33002pt x 844.29337pt.
+File: zadani.pdf Graphic file (type pdf)
+<use zadani.pdf, page 1>
+Package pdftex.def Info: zadani.pdf , page1 used on input line 216.
+(pdftex.def)             Requested size: 597.33002pt x 844.29337pt.
+File: zadani.pdf Graphic file (type pdf)
+<use zadani.pdf, page 1>
+Package pdftex.def Info: zadani.pdf , page1 used on input line 216.
+(pdftex.def)             Requested size: 597.33002pt x 844.29337pt.
+File: zadani.pdf Graphic file (type pdf)
+<use zadani.pdf, page 1>
+Package pdftex.def Info: zadani.pdf , page1 used on input line 216.
+(pdftex.def)             Requested size: 597.33002pt x 844.29337pt.
+ [3 <./zadani.pdf>] [4
+
+] (prohlaseni.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--27
+
+ []
 
 
-(bachelor_thesis_vozab.lof)
-\tf@lof=\write7
-\openout7 = `bachelor_thesis_vozab.lof'.
+Underfull \hbox (badness 10000) in paragraph at lines 3--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--27
+
+ []
+
+[5]) (abstrakty.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+
+ []
+
+
+Overfull \hbox (16.12204pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/it/12 Klcova slova: \OT1/cmr/m/n/12 do-datecne vytvr-zovan,
+ Viskoe-la-sticky ma-terial, ther-mose-tove poly-mery, Drucker-
+ []
+
+[6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+
+ []
+
+) (podekovani.tex [7] [8]) (bachelor_thesis_vozab.toc)
+\tf@toc=\write7
+\openout7 = `bachelor_thesis_vozab.toc'.
+
+
+(bachelor_thesis_vozab.lof [9
+
+])
+\tf@lof=\write8
+\openout8 = `bachelor_thesis_vozab.lof'.
 
  (bachelor_thesis_vozab.lot)
-\tf@lot=\write8
-\openout8 = `bachelor_thesis_vozab.lot'.
+\tf@lot=\write9
+\openout9 = `bachelor_thesis_vozab.lot'.
 
- [3]
+ [10]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: <default>
@@ -963,8 +3017,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=95.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=3.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
@@ -977,129 +3031,395 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(kapitoly/kapitola0.tex) (kapitoly/kapitola3.tex [4
+(kapitoly/kapitola0.tex)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11
 
 
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12
+
+] (kapitoly/kapitola2.tex
+<obrazky/post_installed_anchor_types_repaired.png, id=220, 840.13875pt x 271.01
+25pt>
+File: obrazky/post_installed_anchor_types_repaired.png Graphic file (type png)
+<use obrazky/post_installed_anchor_types_repaired.png>
+Package pdftex.def Info: obrazky/post_installed_anchor_types_repaired.png  used
+ on input line 9.
+(pdftex.def)             Requested size: 424.82523pt x 137.0401pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13
+
+ <./obrazky/post_installed_anchor_types_repaired.png>]
+<obrazky/anchor_types_repaired.png, id=237, 384.6872pt x 368.1253pt>
+File: obrazky/anchor_types_repaired.png Graphic file (type png)
+<use obrazky/anchor_types_repaired.png>
+Package pdftex.def Info: obrazky/anchor_types_repaired.png  used on input line 
+31.
+(pdftex.def)             Requested size: 283.22162pt x 271.04912pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14 <./obrazky/anchor_types_repaired.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15]
+<obrazky/failure_models_tensile.png, id=253, 304.13625pt x 439.6425pt>
+File: obrazky/failure_models_tensile.png Graphic file (type png)
+<use obrazky/failure_models_tensile.png>
+Package pdftex.def Info: obrazky/failure_models_tensile.png  used on input line
+ 81.
+(pdftex.def)             Requested size: 212.4126pt x 307.05669pt.
+<obrazky/failure_models_shear.png, id=254, 304.13625pt x 440.39531pt>
+File: obrazky/failure_models_shear.png Graphic file (type png)
+<use obrazky/failure_models_shear.png>
+Package pdftex.def Info: obrazky/failure_models_shear.png  used on input line 8
+7.
+(pdftex.def)             Requested size: 212.4126pt x 307.58246pt.
+<obrazky/adhesive_failture_models_repaired.png, id=257, 352.31625pt x 307.1475p
+t>
+File: obrazky/adhesive_failture_models_repaired.png Graphic file (type png)
+<use obrazky/adhesive_failture_models_repaired.png>
+Package pdftex.def Info: obrazky/adhesive_failture_models_repaired.png  used on
+ input line 98.
+(pdftex.def)             Requested size: 283.22162pt x 246.90874pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <./obrazky/failure_models_tensile.png> <./obrazky/failure_models_shear.png>
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <./obrazky/adhesive_failture_models_repaired.png>] (kapitoly/kapitola3.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+<obrazky/mechanical_tests.png, id=298, 1445.4pt x 722.7pt>
+File: obrazky/mechanical_tests.png Graphic file (type png)
+<use obrazky/mechanical_tests.png>
+Package pdftex.def Info: obrazky/mechanical_tests.png  used on input line 45.
+(pdftex.def)             Requested size: 330.42041pt x 165.20297pt.
+<obrazky/effect_on_cross_link_density.png, id=300, 797.22844pt x 325.96782pt>
+File: obrazky/effect_on_cross_link_density.png Graphic file (type png)
+<use obrazky/effect_on_cross_link_density.png>
+Package pdftex.def Info: obrazky/effect_on_cross_link_density.png  used on inpu
+t line 64.
+(pdftex.def)             Requested size: 377.62642pt x 154.40358pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21 <./obrazky/mechanical_tests.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./obrazky/effect_on_cross_link_density.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24] (kapitoly/kapitola4.tex
+<obrazky/drucker_prager_meridian_my.png, id=335, 3613.5pt x 2409.0pt>
+File: obrazky/drucker_prager_meridian_my.png Graphic file (type png)
+<use obrazky/drucker_prager_meridian_my.png>
+Package pdftex.def Info: obrazky/drucker_prager_meridian_my.png  used on input 
+line 52.
+(pdftex.def)             Requested size: 330.42041pt x 220.25592pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25
+
+]
+<obrazky/drucker-prager_eng.png, id=347, 3613.5pt x 2409.0pt>
+File: obrazky/drucker-prager_eng.png Graphic file (type png)
+<use obrazky/drucker-prager_eng.png>
+Package pdftex.def Info: obrazky/drucker-prager_eng.png  used on input line 80.
+
+(pdftex.def)             Requested size: 377.62642pt x 251.72105pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 2680) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26 <./obrazky/drucker_prager_meridian_my.png (PNG copy)>]
+Underfull \vbox (badness 4279) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27 <./obrazky/drucker-prager_eng.png (PNG copy)>]
+<obrazky/hardening_softening_modulus_my.png, id=373, 2409.0pt x 3412.75pt>
+File: obrazky/hardening_softening_modulus_my.png Graphic file (type png)
+<use obrazky/hardening_softening_modulus_my.png>
+Package pdftex.def Info: obrazky/hardening_softening_modulus_my.png  used on in
+put line 137.
+(pdftex.def)             Requested size: 354.02342pt x 501.52763pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29 <./obrazky/hardening_softening_modulus_my.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
+<obrazky/apex_cones_my.png, id=478, 2710.125pt x 1806.75pt>
+File: obrazky/apex_cones_my.png Graphic file (type png)
+<use obrazky/apex_cones_my.png>
+Package pdftex.def Info: obrazky/apex_cones_my.png  used on input line 348.
+(pdftex.def)             Requested size: 377.62642pt x 251.73026pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35 <./obrazky/apex_cones_my.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38] (kapitoly/kapitola5.tex) [39
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40
+
+] (kapitoly/kapitola6.tex)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42
+
+] (bachelor_thesis_vozab.bbl)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43
 
 
 
 ]
-Overfull \hbox (1.49396pt too wide) in paragraph at lines 9--10
-[]\OT1/cmr/m/n/12 Drucker-Prager model of plas-tic-ity mod-i-fied Mohr-Coulomb 
-model. Un-like Mohr-Coulomb
- []
-
-<obrazky/drucker-prager.png, id=57, 3613.5pt x 2409.0pt>
-File: obrazky/drucker-prager.png Graphic file (type png)
-<use obrazky/drucker-prager.png>
-Package pdftex.def Info: obrazky/drucker-prager.png  used on input line 13.
-(pdftex.def)             Requested size: 519.23723pt x 346.15321pt.
-
-Overfull \hbox (47.206pt too wide) in paragraph at lines 13--14
- [][] 
- []
-
-
-Underfull \vbox (badness 5667) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5 <./obrazky/drucker-prager.png (PNG copy)>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7] Excluding 'comment' comment.)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
-[]\OT1/cmr/m/n/12 Velky tresk: https:$\OML/cmm/m/it/12 ==$\OT1/cmr/m/n/12 www
-.nikhef.nl$\OML/cmm/m/it/12 =$$\OMS/cmsy/m/n/12 $\OT1/cmr/m/n/12 i93$\OML/cmm/
-m/it/12 =$\OT1/cmr/m/n/12 img$\OML/cmm/m/it/12 =$\OT1/cmr/m/n/12 universe$[]$or
-iginal.jpg [on-line
- []
-
-
-Overfull \hbox (5.26976pt too wide) in paragraph at lines 267--269
-[]\OT1/cmr/m/n/12 https://www.physics.ohio-state.edu$\OML/cmm/m/it/12 =$$\OMS/c
-msy/m/n/12 $\OT1/cmr/m/n/12 ntg$\OML/cmm/m/it/12 =$\OT1/cmr/m/n/12 6805$\OML/c
-mm/m/it/12 =$\OT1/cmr/m/n/12 figures$\OML/cmm/m/it/12 =$\OT1/cmr/m/n/12 RHIC$[]
-$timescales$[]$Strickland.png
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9
-
-
-
-
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
  (bachelor_thesis_vozab.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
 Package rerunfilecheck Info: File `bachelor_thesis_vozab.out' has not changed.
-(rerunfilecheck)             Checksum: 272C35A7D76272475306A9ABD115C575;381.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
+(rerunfilecheck)             Checksum: 9E2373707508D3B8A73D87FDE19CEE1A;1846.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
  ) 
 Here is how much of TeX's memory you used:
- 10157 strings out of 493307
- 149450 string characters out of 3138823
- 254241 words of memory out of 3000000
- 13451 multiletter control sequences out of 15000+200000
- 11364 words of font info for 42 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,11n,43p,406b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on bachelor_thesis_vozab.pdf (10 pages, 313904 bytes).
+ 34392 strings out of 493307
+ 656118 string characters out of 3138823
+ 808736 words of memory out of 3000000
+ 37172 multiletter control sequences out of 15000+200000
+ 545158 words of font info for 80 fonts, out of 3000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 62i,18n,77p,10400b,979s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mti12.pfb>
+Output written on bachelor_thesis_vozab.pdf (43 pages, 1709325 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 641 PDF objects out of 1000 (max. 8388607)
+ 173 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
