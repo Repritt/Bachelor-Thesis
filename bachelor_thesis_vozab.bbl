@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{anchors-ACI-318M}
 ACI, ``Building code requirements for structural concrete,'' Tech. Rep.
@@ -34,14 +34,10 @@ C.~Heinrich, M.~Aldridge, A.~S. Wineman, J.~Kieffer, A.~M. Waas, and K.~W.
   fiber composites,'' {\em International Journal of Engineering Science},
   vol.~53, pp.~85--111, 2012.
 
-\bibitem{di2007symmetric}
-G.~Di~Luzio, ``A symmetric over-nonlocal microplane model m4 for fracture in
-  concrete,'' {\em International journal of solids and structures}, vol.~44,
-  no.~13, pp.~4418--4441, 2007.
-
-\bibitem{popelar1997multiaxial}
-C.~F. Popelar and K.~Liechti, ``Multiaxial nonlinear viscoelastic
-  characterization and modeling of a structural adhesive,'' {\em Journal of
-  Engineering Materials and Technology}, vol.~119, no.~3, pp.~205--210, 1997.
+\bibitem{Deuch_phd_thesis}
+R.~Unterweger, {\em Experimentelle und numerische Untersuchungen zum
+  Tragverhalten von chemischen Verankerungen}.
+\newblock PhD thesis, University of Natural Resources and Life Sciences,
+  Vienna, 1999.
 
 \end{thebibliography}

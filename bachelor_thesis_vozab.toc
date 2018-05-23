@@ -23,4 +23,5 @@
 \contentsline {subsection}{\numberline {3.3}Curing model}{35}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Serially connected models}{38}{subsection.3.4}
 \contentsline {section}{\numberline {4}Results}{39}{section.4}
-\contentsline {section}{\numberline {5}Conclusion}{41}{section.5}
+\contentsline {subsection}{\numberline {4.1}Testing of Drucker-Prager model}{39}{subsection.4.1}
+\contentsline {section}{\numberline {}Conclusion}{47}{figure.caption.20}
