@@ -39,7 +39,7 @@ In the Graph we can see that Drucker-Prager model without hardening simulate beh
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.6\textwidth]{obrazky/compression_zpevneni_parametry.png}
+	\includegraphics[width=0.9\textwidth]{obrazky/compression_zpevneni_parametry.png}
 	\caption[Types of anchors]{Types of anchors ($h_{ef}$ is effective anchor length) \cite{anchors-ACI-318M}: a) cast-in-place; b) post-installed.}\label{obr:Compresion_parameters}
 \end{figure}
 
@@ -49,7 +49,7 @@ All next Figs. of Drucker-Prager compresion test \ref{obr:Compresion_parameters}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.7\textwidth]{obrazky/compression_zpevneni_pl_strain.png}
+	\includegraphics[width=0.9\textwidth]{obrazky/compression_zpevneni_pl_strain.png}
 	\caption[Types of anchors]{Types of anchors ($h_{ef}$ is effective anchor length) \cite{anchors-ACI-318M}: a) cast-in-place; b) post-installed.}\label{obr:Compresion_plastic_srain}
 \end{figure}
 
@@ -60,28 +60,36 @@ All next Figs. of Drucker-Prager compresion test \ref{obr:Compresion_parameters}
 	\caption[Types of anchors]{Types of anchors ($h_{ef}$ is effective anchor length) \cite{anchors-ACI-318M}: a) cast-in-place; b) post-installed.}\label{obr:Compresion_total_strain}
 \end{figure}
 
-\subsection{Results of curing model}
+
+
+
+
+
+\clearpage
+\subsection{Testing of curing model}
 \indent
 
-Curing model were already implemented into Mars FEM solver, but when we want to use it, we need to compare results of the computation with article, where was model presented \cite{heinrich2012generation}. In the Fig. \ref{obr:Curing_cube} we can see that the curing is distributed with most cured material in the center of the cube and 
-
+Curing model were already implemented into Mars FEM solver, but when we want to use it, we need to compare results of the computation with article, where was model presented \cite{heinrich2012generation}. In the Fig. \ref{obr:Curing_cube} we can see that the temperature is distributed with highest value in the center of the cube and less on surface. This is due to the thermal conductivity of the material. The same distribution we can see with the curing of the material, which is affected due to faster curing in higher temperatures, which is the same as in the presented article. 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\textwidth]{obrazky/curing__and_temperature.png}
-	\caption[Types of anchors]{Types of anchors ($h_{ef}$ is effective anchor length) \cite{anchors-ACI-318M}: a) cast-in-place; b) post-installed.}\label{obr:Curing_cube}
+	\caption[Curing of material]{Curing of material in the slice of cube specimen with edge length $1~\mathrm{mm}$. The slice is guided through the center of the cube }\label{obr:Curing_cube}
 \end{figure}
 
 
+In the Fig. \ref{obr:Curing_temperature} we can see change of the temperature in respect to time, which is dependent on the generation of heat and its conducting to the surroundings. 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\textwidth]{obrazky/T-t.eps}
-	\caption[Types of anchors]{Types of anchors ($h_{ef}$ is effective anchor length) \cite{anchors-ACI-318M}: a) cast-in-place; b) post-installed.}\label{obr:Curing_temperature}
+	\caption[Generation of heat during cure]{Generation of heat during cure of the material.}\label{obr:Curing_temperature}
 \end{figure}
+
+In the Fig. \ref{obr:Curing_curing} is presented curing of the material with respect to time, where we can see that the effect of curing slows with higher cure achieved. 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\textwidth]{obrazky/CD-t.eps}
-	\caption[Types of anchors]{Types of anchors ($h_{ef}$ is effective anchor length) \cite{anchors-ACI-318M}: a) cast-in-place; b) post-installed.}\label{obr:Curing_curing}
+	\caption[Degree of cure with respect to time]{Degree of cure with respect to logarithmic time.}\label{obr:Curing_curing}
 \end{figure}
