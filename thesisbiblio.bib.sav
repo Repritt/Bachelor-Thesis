@@ -13,14 +13,11 @@
   journal     = {ACI 318M-08},
 }
 
-
-@manual
-{		
-	hilti_anchors,
-	author         	= {Hilti},
-	year           	= {2012},
-	title          	= {Anchor Fastening	Technology Manual},
-
+@Manual{hilti_anchors,
+  title  = {Anchor Fastening Technology Manual},
+  author = {Hilti},
+  year   = {2012},
+  url    = {https://ask.hilti.com/article/mechanical-vs-adhesive-anchors/rysrkl},
 }
 
 
@@ -57,7 +54,7 @@
   year      = {2002},
   author    = {Pascault, Jean-Pierre and Sautereau, Henry and Verdu, Jacques and Williams, Roberto JJ},
   volume    = {64},
-  isbn      = {ISBN 0-203-90840-6},
+  isbn      = {0-203-90840-6},
 }
 
 @Book{dhatt2012finite,

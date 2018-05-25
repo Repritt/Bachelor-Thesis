@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.4)  24 MAY 2018 02:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.4)  25 MAY 2018 05:06
 entering extended mode
 **./bachelor_thesis_vozab.tex
 (bachelor_thesis_vozab.tex
@@ -683,13 +683,6 @@ Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nom@tempdim=\dimen124
 \nomitemsep=\skip52
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip53
-\bibsep=\skip54
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count116
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -707,33 +700,33 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen130
 \caption@hangindent=\dimen131
 )
-\c@ContinuedFloat=\count117
+\c@ContinuedFloat=\count116
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count118
-\c@subtable=\count119
+\c@subfigure=\count117
+\c@subtable=\count118
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip55
-\f@nch@O@elh=\skip56
-\f@nch@O@erh=\skip57
-\f@nch@O@olh=\skip58
-\f@nch@O@orh=\skip59
-\f@nch@O@elf=\skip60
-\f@nch@O@erf=\skip61
-\f@nch@O@olf=\skip62
-\f@nch@O@orf=\skip63
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count120
-\Gm@cntv=\count121
-\c@Gm@tempcnt=\count122
+\Gm@cnth=\count119
+\Gm@cntv=\count120
+\c@Gm@tempcnt=\count121
 \Gm@bindingoffset=\dimen132
 \Gm@wd@mp=\dimen133
 \Gm@odd@mp=\dimen134
@@ -755,16 +748,16 @@ Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count123
-\calc@Bcount=\count124
+\calc@Acount=\count122
+\calc@Bcount=\count123
 \calc@Adimen=\dimen141
 \calc@Bdimen=\dimen142
-\calc@Askip=\skip64
-\calc@Bskip=\skip65
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count125
-\calc@Cskip=\skip66
+\calc@Ccount=\count124
+\calc@Cskip=\skip64
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
@@ -773,9 +766,9 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count126
+\g_MT_multlinerow_int=\count125
 \l_MT_multwidth_dim=\dimen143
-\origjot=\skip67
+\origjot=\skip65
 \l_MT_shortvdotswithinadjustabove_dim=\dimen144
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen145
 \l_MT_above_intertext_sep=\dimen146
@@ -794,7 +787,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks31
 \XKV@tempa@toks=\toks32
 )
-\XKV@depth=\count127
+\XKV@depth=\count126
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
@@ -824,12 +817,12 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count128
+\c@checkoddpage=\count127
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box31
-\sift@deathcycles=\count129
+\sift@deathcycles=\count128
 \@vwid@loff=\dimen158
 \@vwid@roff=\dimen159
 ))
@@ -991,7 +984,7 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count130
+\c@lips@count=\count129
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\boxhandler\boxhandler.sty"
 Package: boxhandler 2012/10/18 v1.30 Tools for Optimizing Captions, Presentatio
@@ -1002,38 +995,38 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pbox\pbox.sty"
 Package: pbox 2011/12/07 v1.2 Dynamic parboxes
-\pb@xlen=\skip68
+\pb@xlen=\skip66
 )
-\c@TableIndex=\count131
-\c@FigureIndex=\count132
-\c@TableClearedIndex=\count133
-\c@FigureClearedIndex=\count134
-\oldabovecaptionskip=\skip69
-\oldbelowcaptionskip=\skip70
-\captionGap=\skip71
-\TableDeadMargin=\skip72
-\FigureDeadMargin=\skip73
-\c@abovecaptionskipterm=\count135
-\c@belowcaptionskipterm=\count136
-\@minCaptionBoxWidth=\skip74
-\@minCaptionBoxWidthDefault=\skip75
-\@maxCaptionBoxWidth=\skip76
-\@maxCaptionBoxWidthDefault=\skip77
-\c@promptTablesFlag=\count137
-\c@promptFiguresFlag=\count138
-\DeadMargin=\skip78
-\@DataBoxWidth=\skip79
-\CaptionBoxWidth=\skip80
-\@DataBoxOffset=\skip81
-\@CaptionBoxOffset=\skip82
-\@captionIDwidth=\skip83
-\@captionWidth=\skip84
-\@DataBoxSurplus=\skip85
-\c@lofInvocations=\count139
-\c@lofPrints=\count140
-\c@lotInvocations=\count141
-\c@lotPrints=\count142
-\hyper@shift=\skip86
+\c@TableIndex=\count130
+\c@FigureIndex=\count131
+\c@TableClearedIndex=\count132
+\c@FigureClearedIndex=\count133
+\oldabovecaptionskip=\skip67
+\oldbelowcaptionskip=\skip68
+\captionGap=\skip69
+\TableDeadMargin=\skip70
+\FigureDeadMargin=\skip71
+\c@abovecaptionskipterm=\count134
+\c@belowcaptionskipterm=\count135
+\@minCaptionBoxWidth=\skip72
+\@minCaptionBoxWidthDefault=\skip73
+\@maxCaptionBoxWidth=\skip74
+\@maxCaptionBoxWidthDefault=\skip75
+\c@promptTablesFlag=\count136
+\c@promptFiguresFlag=\count137
+\DeadMargin=\skip76
+\@DataBoxWidth=\skip77
+\CaptionBoxWidth=\skip78
+\@DataBoxOffset=\skip79
+\@CaptionBoxOffset=\skip80
+\@captionIDwidth=\skip81
+\@captionWidth=\skip82
+\@DataBoxSurplus=\skip83
+\c@lofInvocations=\count138
+\c@lofPrints=\count139
+\c@lotInvocations=\count140
+\c@lotPrints=\count141
+\hyper@shift=\skip84
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
@@ -1067,7 +1060,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box32
 \AM@global@opts=\toks33
 \AM@toc@title=\toks34
-\c@AM@survey=\count143
+\c@AM@survey=\count142
 \AM@templatesizebox=\box33
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\physics\physics.sty"
@@ -1079,106 +1072,106 @@ Package: expl3 2018-04-30 L3 programming layer (loader)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
 Package: expl3 2018-04-30 L3 programming layer (code)
-\c_max_int=\count144
-\l_tmpa_int=\count145
-\l_tmpb_int=\count146
-\g_tmpa_int=\count147
-\g_tmpb_int=\count148
-\g__kernel_prg_map_int=\count149
-\c_log_iow=\count150
-\l_iow_line_count_int=\count151
-\l__iow_line_target_int=\count152
-\l__iow_one_indent_int=\count153
-\l__iow_indent_int=\count154
+\c_max_int=\count143
+\l_tmpa_int=\count144
+\l_tmpb_int=\count145
+\g_tmpa_int=\count146
+\g_tmpb_int=\count147
+\g__kernel_prg_map_int=\count148
+\c_log_iow=\count149
+\l_iow_line_count_int=\count150
+\l__iow_line_target_int=\count151
+\l__iow_one_indent_int=\count152
+\l__iow_indent_int=\count153
 \c_zero_dim=\dimen162
 \c_max_dim=\dimen163
 \l_tmpa_dim=\dimen164
 \l_tmpb_dim=\dimen165
 \g_tmpa_dim=\dimen166
 \g_tmpb_dim=\dimen167
-\c_zero_skip=\skip87
-\c_max_skip=\skip88
-\l_tmpa_skip=\skip89
-\l_tmpb_skip=\skip90
-\g_tmpa_skip=\skip91
-\g_tmpb_skip=\skip92
+\c_zero_skip=\skip85
+\c_max_skip=\skip86
+\l_tmpa_skip=\skip87
+\l_tmpb_skip=\skip88
+\g_tmpa_skip=\skip89
+\g_tmpb_skip=\skip90
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count155
-\c__fp_leading_shift_int=\count156
-\c__fp_middle_shift_int=\count157
-\c__fp_trailing_shift_int=\count158
-\c__fp_big_leading_shift_int=\count159
-\c__fp_big_middle_shift_int=\count160
-\c__fp_big_trailing_shift_int=\count161
-\c__fp_Bigg_leading_shift_int=\count162
-\c__fp_Bigg_middle_shift_int=\count163
-\c__fp_Bigg_trailing_shift_int=\count164
-\c__fp_rand_size_int=\count165
-\c__fp_rand_four_int=\count166
-\c__fp_rand_eight_int=\count167
+\l_keys_choice_int=\count154
+\c__fp_leading_shift_int=\count155
+\c__fp_middle_shift_int=\count156
+\c__fp_trailing_shift_int=\count157
+\c__fp_big_leading_shift_int=\count158
+\c__fp_big_middle_shift_int=\count159
+\c__fp_big_trailing_shift_int=\count160
+\c__fp_Bigg_leading_shift_int=\count161
+\c__fp_Bigg_middle_shift_int=\count162
+\c__fp_Bigg_trailing_shift_int=\count163
+\c__fp_rand_size_int=\count164
+\c__fp_rand_four_int=\count165
+\c__fp_rand_eight_int=\count166
 \c__intarray_sp_dim=\dimen168
-\g__intarray_font_int=\count168
-\l__sort_length_int=\count169
-\l__sort_min_int=\count170
-\l__sort_top_int=\count171
-\l__sort_max_int=\count172
-\l__sort_true_max_int=\count173
-\l__sort_block_int=\count174
-\l__sort_begin_int=\count175
-\l__sort_end_int=\count176
-\l__sort_A_int=\count177
-\l__sort_B_int=\count178
-\l__sort_C_int=\count179
-\l__tl_analysis_normal_int=\count180
-\l__tl_analysis_index_int=\count181
-\l__tl_analysis_nesting_int=\count182
-\l__tl_analysis_type_int=\count183
-\l__regex_internal_a_int=\count184
-\l__regex_internal_b_int=\count185
-\l__regex_internal_c_int=\count186
-\l__regex_balance_int=\count187
-\l__regex_group_level_int=\count188
-\l__regex_mode_int=\count189
-\c__regex_cs_in_class_mode_int=\count190
-\c__regex_cs_mode_int=\count191
-\l__regex_catcodes_int=\count192
-\l__regex_default_catcodes_int=\count193
-\c__regex_catcode_D_int=\count194
-\c__regex_catcode_S_int=\count195
-\c__regex_catcode_L_int=\count196
-\c__regex_catcode_O_int=\count197
-\c__regex_catcode_A_int=\count198
-\c__regex_all_catcodes_int=\count199
-\l__regex_show_lines_int=\count266
-\l__regex_min_state_int=\count267
-\l__regex_max_state_int=\count268
-\l__regex_left_state_int=\count269
-\l__regex_right_state_int=\count270
-\l__regex_capturing_group_int=\count271
-\l__regex_min_pos_int=\count272
-\l__regex_max_pos_int=\count273
-\l__regex_curr_pos_int=\count274
-\l__regex_start_pos_int=\count275
-\l__regex_success_pos_int=\count276
-\l__regex_curr_char_int=\count277
-\l__regex_curr_catcode_int=\count278
-\l__regex_last_char_int=\count279
-\l__regex_case_changed_char_int=\count280
-\l__regex_curr_state_int=\count281
-\l__regex_step_int=\count282
-\l__regex_min_active_int=\count283
-\l__regex_max_active_int=\count284
-\l__regex_replacement_csnames_int=\count285
-\l__regex_match_count_int=\count286
-\l__regex_min_submatch_int=\count287
-\l__regex_submatch_int=\count288
-\l__regex_zeroth_submatch_int=\count289
-\g__regex_trace_regex_int=\count290
+\g__intarray_font_int=\count167
+\l__sort_length_int=\count168
+\l__sort_min_int=\count169
+\l__sort_top_int=\count170
+\l__sort_max_int=\count171
+\l__sort_true_max_int=\count172
+\l__sort_block_int=\count173
+\l__sort_begin_int=\count174
+\l__sort_end_int=\count175
+\l__sort_A_int=\count176
+\l__sort_B_int=\count177
+\l__sort_C_int=\count178
+\l__tl_analysis_normal_int=\count179
+\l__tl_analysis_index_int=\count180
+\l__tl_analysis_nesting_int=\count181
+\l__tl_analysis_type_int=\count182
+\l__regex_internal_a_int=\count183
+\l__regex_internal_b_int=\count184
+\l__regex_internal_c_int=\count185
+\l__regex_balance_int=\count186
+\l__regex_group_level_int=\count187
+\l__regex_mode_int=\count188
+\c__regex_cs_in_class_mode_int=\count189
+\c__regex_cs_mode_int=\count190
+\l__regex_catcodes_int=\count191
+\l__regex_default_catcodes_int=\count192
+\c__regex_catcode_D_int=\count193
+\c__regex_catcode_S_int=\count194
+\c__regex_catcode_L_int=\count195
+\c__regex_catcode_O_int=\count196
+\c__regex_catcode_A_int=\count197
+\c__regex_all_catcodes_int=\count198
+\l__regex_show_lines_int=\count199
+\l__regex_min_state_int=\count266
+\l__regex_max_state_int=\count267
+\l__regex_left_state_int=\count268
+\l__regex_right_state_int=\count269
+\l__regex_capturing_group_int=\count270
+\l__regex_min_pos_int=\count271
+\l__regex_max_pos_int=\count272
+\l__regex_curr_pos_int=\count273
+\l__regex_start_pos_int=\count274
+\l__regex_success_pos_int=\count275
+\l__regex_curr_char_int=\count276
+\l__regex_curr_catcode_int=\count277
+\l__regex_last_char_int=\count278
+\l__regex_case_changed_char_int=\count279
+\l__regex_curr_state_int=\count280
+\l__regex_step_int=\count281
+\l__regex_min_active_int=\count282
+\l__regex_max_active_int=\count283
+\l__regex_replacement_csnames_int=\count284
+\l__regex_match_count_int=\count285
+\l__regex_min_submatch_int=\count286
+\l__regex_submatch_int=\count287
+\l__regex_zeroth_submatch_int=\count288
+\g__regex_trace_regex_int=\count289
 \c_empty_box=\box34
 \l_tmpa_box=\box35
 \l_tmpb_box=\box36
@@ -1220,19 +1213,19 @@ Package: expl3 2018-04-30 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen191
 \l__coffin_scaled_total_height_dim=\dimen192
 \l__coffin_scaled_width_dim=\dimen193
-\l__seq_internal_a_int=\count291
-\l__seq_internal_b_int=\count292
+\l__seq_internal_a_int=\count290
+\l__seq_internal_b_int=\count291
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2018-04-30 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count293
+\l__driver_color_stack_int=\count292
 ))
 Package: xparse 2018-04-30 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count294
-\g__xparse_grabber_int=\count295
-\l__xparse_m_args_int=\count296
-\l__xparse_mandatory_args_int=\count297
-\l__xparse_v_nesting_int=\count298
+\l__xparse_current_arg_int=\count293
+\g__xparse_grabber_int=\count294
+\l__xparse_m_args_int=\count295
+\l__xparse_mandatory_args_int=\count296
+\l__xparse_v_nesting_int=\count297
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -2222,29 +2215,29 @@ LaTeX Info: Redefining \scriptstyle on input line 97.
 LaTeX Info: Redefining \scriptscriptstyle on input line 99.
 LaTeX Info: Redefining \genfrac on input line 145.
 ))
-\inf@bad=\count299
-\maxint=\count300
+\inf@bad=\count298
+\maxint=\count299
 \listwidth=\dimen194
 \eqnumsep=\dimen195
 \eqmargin=\dimen196
-\eqlinespacing=\skip93
-\eqlineskip=\skip94
+\eqlinespacing=\skip91
+\eqlineskip=\skip92
 \eqlineskiplimit=\dimen197
 \eqbinoffset=\muskip18
 \eqdelimoffset=\muskip19
 \eqindentstep=\dimen198
 \eqstyle=\toks35
-\eqbreakdepth=\count301
-\eqinterlinepenalty=\count302
-\intereqpenalty=\count303
-\intereqskip=\skip95
-\prerelpenalty=\count304
-\prebinoppenalty=\count305
+\eqbreakdepth=\count300
+\eqinterlinepenalty=\count301
+\intereqpenalty=\count302
+\intereqskip=\skip93
+\prerelpenalty=\count303
+\prebinoppenalty=\count304
 \Dmedmuskip=\muskip20
 \Dthickmuskip=\muskip21
-\eqleftskip=\skip96
-\eqrightskip=\skip97
-\eq@vspan=\skip98
+\eqleftskip=\skip94
+\eqrightskip=\skip95
+\eq@vspan=\skip96
 \eq@binoffset=\muskip22
 \EQ@box=\box49
 \EQ@copy=\box50
@@ -2252,10 +2245,10 @@ LaTeX Info: Redefining \genfrac on input line 145.
 \eq@wdNum=\dimen199
 \GRP@numbox=\box52
 \grp@wdNum=\dimen256
-\eq@lines=\count306
-\eq@curline=\count307
-\eq@badness=\count308
-\EQ@vims=\count309
+\eq@lines=\count305
+\eq@curline=\count306
+\eq@badness=\count307
+\EQ@vims=\count308
 \eq@dp=\dimen257
 \eq@wdL=\dimen258
 \eq@wdT=\dimen259
@@ -2272,17 +2265,17 @@ LaTeX Info: Redefining \genfrac on input line 145.
 \eq@hshift=\dimen270
 \eq@given@sidespace=\dimen271
 \mathindent=\dimen272
-\eq@final@linecount=\count310
+\eq@final@linecount=\count309
 \eq@wdR=\dimen273
 \EQ@continue=\toks36
-\lr@level=\count311
+\lr@level=\count310
 \GRP@queue=\toks37
 \GRP@box=\box53
 \GRP@wholebox=\box54
-\darraycolsep=\skip99
-\cur@row=\count312
-\cur@col=\count313
-\conditionsep=\skip100
+\darraycolsep=\skip97
+\cur@row=\count311
+\cur@col=\count312
+\conditionsep=\skip98
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
 Package: siunitx 2018-05-02 v2.7o A comprehensive (SI) units package
@@ -2292,29 +2285,29 @@ Package: l3keys2e 2018-04-30 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box55
 \l__siunitx_tmp_dim=\dimen274
-\l__siunitx_tmp_int=\count314
-\l__siunitx_number_mantissa_length_int=\count315
-\l__siunitx_number_uncert_length_int=\count316
-\l__siunitx_round_int=\count317
-\l__siunitx_process_decimal_int=\count318
-\l__siunitx_process_uncertainty_int=\count319
-\l__siunitx_process_fixed_int=\count320
-\l__siunitx_process_integer_min_int=\count321
-\l__siunitx_process_precision_int=\count322
-\l__siunitx_group_min_int=\count323
+\l__siunitx_tmp_int=\count313
+\l__siunitx_number_mantissa_length_int=\count314
+\l__siunitx_number_uncert_length_int=\count315
+\l__siunitx_round_int=\count316
+\l__siunitx_process_decimal_int=\count317
+\l__siunitx_process_uncertainty_int=\count318
+\l__siunitx_process_fixed_int=\count319
+\l__siunitx_process_integer_min_int=\count320
+\l__siunitx_process_precision_int=\count321
+\l__siunitx_group_min_int=\count322
 \l__siunitx_angle_marker_box=\box56
 \l__siunitx_angle_unit_box=\box57
 \l__siunitx_angle_marker_dim=\dimen275
 \l__siunitx_angle_unit_dim=\dimen276
-\l__siunitx_unit_int=\count324
-\l__siunitx_unit_denominator_int=\count325
-\l__siunitx_unit_numerator_int=\count326
-\l__siunitx_unit_prefix_int=\count327
-\l__siunitx_unit_prefix_base_int=\count328
-\l__siunitx_unit_prefix_gram_int=\count329
-\l__siunitx_number_product_int=\count330
-\c__siunitx_one_fill_skip=\skip101
-\l__siunitx_table_unit_align_skip=\skip102
+\l__siunitx_unit_int=\count323
+\l__siunitx_unit_denominator_int=\count324
+\l__siunitx_unit_numerator_int=\count325
+\l__siunitx_unit_prefix_int=\count326
+\l__siunitx_unit_prefix_base_int=\count327
+\l__siunitx_unit_prefix_gram_int=\count328
+\l__siunitx_number_product_int=\count329
+\c__siunitx_one_fill_skip=\skip99
+\l__siunitx_table_unit_align_skip=\skip100
 \l__siunitx_table_exponent_dim=\dimen277
 \l__siunitx_table_integer_dim=\dimen278
 \l__siunitx_table_mantissa_dim=\dimen279
@@ -2328,8 +2321,8 @@ Package: l3keys2e 2018-04-30 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_post_box=\box59
 \l__siunitx_table_mantissa_box=\box60
 \l__siunitx_table_result_box=\box61
-\l__siunitx_table_number_align_skip=\skip103
-\l__siunitx_table_text_align_skip=\skip104
+\l__siunitx_table_number_align_skip=\skip101
+\l__siunitx_table_text_align_skip=\skip102
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2453,7 +2446,7 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks38
 \footnotemargin=\dimen286
-\c@pp@next@reset=\count331
+\c@pp@next@reset=\count330
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -2465,9 +2458,17 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\perpage.sty"
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
-\c@abspage=\count332
+\c@abspage=\count331
 )
-\c@pp@a@footnote=\count333
+\c@pp@a@footnote=\count332
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip103
+\bibsep=\skip104
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count333
+)
 \@nomenclaturefile=\write4
 \openout4 = `bachelor_thesis_vozab.nlo'.
 
@@ -2763,28 +2764,28 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 (bachelor_thesis_vozab.aux)
 \openout1 = `bachelor_thesis_vozab.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 162.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 162.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 174.
+LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 174.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 174.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    ... okay on input line 174.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2801,7 +2802,7 @@ LaTeX Font Info:    ... okay on input line 162.
 \everyMPtoPDFconversion=\toks55
 )
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring OFF on input line 162.
+Package hyperref Info: Link coloring OFF on input line 174.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2810,9 +2811,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count360
 )
-LaTeX Info: Redefining \ref on input line 162.
-LaTeX Info: Redefining \pageref on input line 162.
-LaTeX Info: Redefining \nameref on input line 162.
+LaTeX Info: Redefining \ref on input line 174.
+LaTeX Info: Redefining \pageref on input line 174.
+LaTeX Info: Redefining \nameref on input line 174.
 
 (bachelor_thesis_vozab.out) (bachelor_thesis_vozab.out)
 \@outlinefile=\write6
@@ -2825,18 +2826,18 @@ Package caption Info: End \AtBeginDocument code.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(85.35826pt, 472.03123pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=472.03123pt
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
 * \textheight=617.42479pt
 * \oddsidemargin=13.08827pt
-* \evensidemargin=-15.36449pt
+* \evensidemargin=13.08827pt
 * \topmargin=-14.22636pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -2850,8 +2851,8 @@ Package caption Info: End \AtBeginDocument code.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -2867,12 +2868,12 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 162.
+LaTeX Font Info:    Try loading font information for U+msa on input line 174.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 162.
+LaTeX Font Info:    Try loading font information for U+msb on input line 174.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2885,12 +2886,12 @@ Package epstopdf Info: Source file: <lev_novy.eps>
 (epstopdf)                    size: 9712 bytes
 (epstopdf)             Command: <epstopdf --outfile=lev_novy-eps-converted-to.p
 df lev_novy.eps>
-(epstopdf)             \includegraphics on input line 175.
+(epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
 <lev_novy-eps-converted-to.pdf, id=114, 95.35625pt x 73.27374pt>
 File: lev_novy-eps-converted-to.pdf Graphic file (type pdf)
 <use lev_novy-eps-converted-to.pdf>
-Package pdftex.def Info: lev_novy-eps-converted-to.pdf  used on input line 175.
+Package pdftex.def Info: lev_novy-eps-converted-to.pdf  used on input line 188.
 
 (pdftex.def)             Requested size: 142.26378pt x 109.33228pt.
  [1
@@ -2905,47 +2906,45 @@ Package epstopdf Info: Source file: <lev_novy.eps>
 (epstopdf)                    size: 9712 bytes
 (epstopdf)             Command: <epstopdf --outfile=lev_novy-eps-converted-to.p
 df lev_novy.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 File: lev_novy-eps-converted-to.pdf Graphic file (type pdf)
 <use lev_novy-eps-converted-to.pdf>
-Package pdftex.def Info: lev_novy-eps-converted-to.pdf  used on input line 200.
+Package pdftex.def Info: lev_novy-eps-converted-to.pdf  used on input line 213.
 
 (pdftex.def)             Requested size: 142.26378pt x 109.33228pt.
  [2]
 <zadani.pdf, id=131, 597.23125pt x 844.15375pt>
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf>
-Package pdftex.def Info: zadani.pdf  used on input line 222.
+Package pdftex.def Info: zadani.pdf  used on input line 235.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf>
-Package pdftex.def Info: zadani.pdf  used on input line 222.
+Package pdftex.def Info: zadani.pdf  used on input line 235.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 <zadani.pdf, id=134, page=1, 597.23125pt x 844.15375pt>
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf, page 1>
-Package pdftex.def Info: zadani.pdf , page1 used on input line 222.
+Package pdftex.def Info: zadani.pdf , page1 used on input line 235.
 (pdftex.def)             Requested size: 597.22978pt x 844.15169pt.
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf, page 1>
-Package pdftex.def Info: zadani.pdf , page1 used on input line 222.
+Package pdftex.def Info: zadani.pdf , page1 used on input line 235.
 (pdftex.def)             Requested size: 597.33002pt x 844.29337pt.
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf, page 1>
-Package pdftex.def Info: zadani.pdf , page1 used on input line 222.
+Package pdftex.def Info: zadani.pdf , page1 used on input line 235.
 (pdftex.def)             Requested size: 597.33002pt x 844.29337pt.
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf, page 1>
-Package pdftex.def Info: zadani.pdf , page1 used on input line 222.
+Package pdftex.def Info: zadani.pdf , page1 used on input line 235.
 (pdftex.def)             Requested size: 597.33002pt x 844.29337pt.
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf, page 1>
-Package pdftex.def Info: zadani.pdf , page1 used on input line 222.
+Package pdftex.def Info: zadani.pdf , page1 used on input line 235.
 (pdftex.def)             Requested size: 597.33002pt x 844.29337pt.
- [3 <./zadani.pdf>] [4
-
-] (prohlaseni.tex
+ [3 <./zadani.pdf>] (prohlaseni.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--27
 
  []
@@ -2995,7 +2994,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--27
 
  []
 
-[5]) (abstrakty.tex
+[4
+
+]) (abstrakty.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -3021,8 +3022,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--18
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--28
-
+Overfull \hbox (0.1771pt too wide) in paragraph at lines 25--28
+[]\OT1/cmr/m/n/12 Model v teto praci je slozen ze dvou cast. Prvn je m
+odel vytvr-zovan, ktery zohlednuje
  []
 
 
@@ -3031,12 +3033,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--28
  []
 
 
-Overfull \hbox (3.10135pt too wide) in paragraph at lines 29--30
-\OT1/cmr/m/it/12 Klcova slova: \OT1/cmr/m/n/12 do-datecne vytvr-zovan,
- reak-to-plasty, Drucker-Prager, metoda konecnych prvku 
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+
  []
 
-[6
+[5
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 33--36
@@ -3063,32 +3064,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--46
 
  []
 
-) (podekovani.tex [7] [8]) (bachelor_thesis_vozab.toc)
+) (podekovani.tex [6] [7]) (bachelor_thesis_vozab.toc)
 \tf@toc=\write7
 \openout7 = `bachelor_thesis_vozab.toc'.
 
- [9
+ [8
 
 ]
 (bachelor_thesis_vozab.lof)
 \tf@lof=\write8
 \openout8 = `bachelor_thesis_vozab.lof'.
 
- [10]
+ [9]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includehead includefoot twoside 
-* h-part:(L,W,R)=(85.35826pt, 472.03123pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=472.03123pt
-* \textheight=614.15898pt
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=664.23584pt
 * \oddsidemargin=13.08827pt
-* \evensidemargin=-15.36449pt
+* \evensidemargin=13.08827pt
 * \topmargin=-15.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -3102,47 +3103,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--46
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (kapitoly/kapitola0.tex)
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 257.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 258.
+
+(kapitoly/kapitola0.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11
+[10
 
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12
 
 ] (kapitoly/kapitola2.tex
-<obrazky/post_installed_anchor_types_repaired.png, id=248, 840.13875pt x 271.01
+<obrazky/post_installed_anchor_types_repaired.png, id=240, 840.13875pt x 271.01
 25pt>
 File: obrazky/post_installed_anchor_types_repaired.png Graphic file (type png)
 <use obrazky/post_installed_anchor_types_repaired.png>
 Package pdftex.def Info: obrazky/post_installed_anchor_types_repaired.png  used
  on input line 10.
-(pdftex.def)             Requested size: 424.82523pt x 137.0401pt.
- [13
+(pdftex.def)             Requested size: 409.71692pt x 132.16457pt.
+ [11
+
 
  <./obrazky/post_installed_anchor_types_repaired.png>]
-<obrazky/anchor_types_repaired.png, id=265, 384.6872pt x 368.1253pt>
+<obrazky/anchor_types_repaired.png, id=256, 384.6872pt x 368.1253pt>
 File: obrazky/anchor_types_repaired.png Graphic file (type png)
 <use obrazky/anchor_types_repaired.png>
 Package pdftex.def Info: obrazky/anchor_types_repaired.png  used on input line 
 31.
-(pdftex.def)             Requested size: 283.22162pt x 271.04912pt.
+(pdftex.def)             Requested size: 273.14923pt x 261.4045pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3150,33 +3152,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./obrazky/anchor_types_repaired.png>]
+[12 <./obrazky/anchor_types_repaired.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
-<obrazky/failure_models_tensile.png, id=281, 304.13625pt x 439.6425pt>
+[13]
+<obrazky/failure_models_tensile.png, id=274, 304.13625pt x 439.6425pt>
 File: obrazky/failure_models_tensile.png Graphic file (type png)
 <use obrazky/failure_models_tensile.png>
 Package pdftex.def Info: obrazky/failure_models_tensile.png  used on input line
  81.
-(pdftex.def)             Requested size: 212.4126pt x 307.05669pt.
-<obrazky/failure_models_shear.png, id=282, 304.13625pt x 440.39531pt>
+(pdftex.def)             Requested size: 204.85846pt x 296.14212pt.
+<obrazky/failure_models_shear.png, id=275, 304.13625pt x 440.39531pt>
 File: obrazky/failure_models_shear.png Graphic file (type png)
 <use obrazky/failure_models_shear.png>
 Package pdftex.def Info: obrazky/failure_models_shear.png  used on input line 8
 7.
-(pdftex.def)             Requested size: 212.4126pt x 307.58246pt.
-<obrazky/adhesive_failture_models_repaired.png, id=285, 352.31625pt x 307.1475p
+(pdftex.def)             Requested size: 204.85846pt x 296.64922pt.
+<obrazky/adhesive_failture_models_repaired.png, id=278, 352.31625pt x 307.1475p
 t>
 File: obrazky/adhesive_failture_models_repaired.png Graphic file (type png)
 <use obrazky/adhesive_failture_models_repaired.png>
 Package pdftex.def Info: obrazky/adhesive_failture_models_repaired.png  used on
  input line 98.
-(pdftex.def)             Requested size: 283.22162pt x 246.90874pt.
+(pdftex.def)             Requested size: 273.14923pt x 238.13058pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3188,14 +3190,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[14]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17 <./obrazky/failure_models_tensile.png> <./obrazky/failure_models_shear.png>
+[15 <./obrazky/failure_models_tensile.png> <./obrazky/failure_models_shear.png>
 ]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3203,8 +3205,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18 <./obrazky/adhesive_failture_models_repaired.png>] (kapitoly/kapitola3.tex
-[19
+[16 <./obrazky/adhesive_failture_models_repaired.png>] (kapitoly/kapitola3.tex
+[17
 
 ]
 
@@ -3213,18 +3215,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
-<obrazky/mechanical_tests.png, id=327, 1445.4pt x 722.7pt>
+[18]
+<obrazky/mechanical_tests.png, id=324, 1445.4pt x 722.7pt>
 File: obrazky/mechanical_tests.png Graphic file (type png)
 <use obrazky/mechanical_tests.png>
 Package pdftex.def Info: obrazky/mechanical_tests.png  used on input line 46.
-(pdftex.def)             Requested size: 330.42041pt x 165.20297pt.
-<obrazky/effect_on_cross_link_density.png, id=329, 797.22844pt x 325.96782pt>
+(pdftex.def)             Requested size: 318.66948pt x 159.33633pt.
+<obrazky/effect_on_cross_link_density.png, id=326, 797.22844pt x 325.96782pt>
 File: obrazky/effect_on_cross_link_density.png Graphic file (type png)
 <use obrazky/effect_on_cross_link_density.png>
 Package pdftex.def Info: obrazky/effect_on_cross_link_density.png  used on inpu
-t line 65.
-(pdftex.def)             Requested size: 377.62642pt x 154.40358pt.
+t line 63.
+(pdftex.def)             Requested size: 364.19667pt x 148.91245pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -3232,82 +3234,92 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./obrazky/mechanical_tests.png>]
+[19 <./obrazky/mechanical_tests.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 <./obrazky/effect_on_cross_link_density.png>]
+[20 <./obrazky/effect_on_cross_link_density.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23])
+[21])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24] (kapitoly/kapitola4.tex
-<obrazky/drucker_prager_meridian_my.png, id=364, 3613.5pt x 2409.0pt>
+[22] (kapitoly/kapitola4.tex
+<obrazky/drucker_prager_meridian_my.png, id=359, 3613.5pt x 2409.0pt>
 File: obrazky/drucker_prager_meridian_my.png Graphic file (type png)
 <use obrazky/drucker_prager_meridian_my.png>
 Package pdftex.def Info: obrazky/drucker_prager_meridian_my.png  used on input 
 line 53.
-(pdftex.def)             Requested size: 330.42041pt x 220.25592pt.
+(pdftex.def)             Requested size: 318.66948pt x 212.4264pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25
+[23
 
 ]
-<obrazky/drucker-prager_eng.png, id=376, 3613.5pt x 2409.0pt>
+<obrazky/drucker-prager_eng.png, id=371, 3613.5pt x 2409.0pt>
 File: obrazky/drucker-prager_eng.png Graphic file (type png)
 <use obrazky/drucker-prager_eng.png>
-Package pdftex.def Info: obrazky/drucker-prager_eng.png  used on input line 81.
+Package pdftex.def Info: obrazky/drucker-prager_eng.png  used on input line 79.
 
-(pdftex.def)             Requested size: 377.62642pt x 251.72105pt.
+(pdftex.def)             Requested size: 364.19667pt x 242.78879pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 2680) has occurred while \output is active []
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-
+[24 <./obrazky/drucker_prager_meridian_my.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26 <./obrazky/drucker_prager_meridian_my.png (PNG copy)>]
-Underfull \vbox (badness 4279) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27 <./obrazky/drucker-prager_eng.png (PNG copy)>]
+[25 <./obrazky/drucker-prager_eng.png (PNG copy)>]
 <obrazky/hardening_softening_modulus_my.png, id=402, 2409.0pt x 3412.75pt>
 File: obrazky/hardening_softening_modulus_my.png Graphic file (type png)
 <use obrazky/hardening_softening_modulus_my.png>
 Package pdftex.def Info: obrazky/hardening_softening_modulus_my.png  used on in
-put line 138.
-(pdftex.def)             Requested size: 354.02342pt x 501.52763pt.
+put line 132.
+(pdftex.def)             Requested size: 341.43307pt x 483.66615pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26]
+Overfull \vbox (39.81532pt too high) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27 <./obrazky/hardening_softening_modulus_my.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3321,7 +3333,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 <./obrazky/hardening_softening_modulus_my.png (PNG copy)>]
+[29]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3336,6 +3348,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [31]
+<obrazky/apex_cones_my.png, id=497, 2710.125pt x 1806.75pt>
+File: obrazky/apex_cones_my.png Graphic file (type png)
+<use obrazky/apex_cones_my.png>
+Package pdftex.def Info: obrazky/apex_cones_my.png  used on input line 329.
+(pdftex.def)             Requested size: 364.19667pt x 242.79797pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3349,62 +3370,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]
+[33 <./obrazky/apex_cones_my.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]
-<obrazky/apex_cones_my.png, id=508, 2710.125pt x 1806.75pt>
-File: obrazky/apex_cones_my.png Graphic file (type png)
-<use obrazky/apex_cones_my.png>
-Package pdftex.def Info: obrazky/apex_cones_my.png  used on input line 349.
-(pdftex.def)             Requested size: 377.62642pt x 251.73026pt.
-
+[34])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35 <./obrazky/apex_cones_my.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[37])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38] (kapitoly/kapitola5.tex
-<obrazky/test_parameters.png, id=561, 3613.5pt x 2409.0pt>
+[35] (kapitoly/kapitola5.tex
+<obrazky/test_parameters.png, id=557, 3613.5pt x 2409.0pt>
 File: obrazky/test_parameters.png Graphic file (type png)
 <use obrazky/test_parameters.png>
-Package pdftex.def Info: obrazky/test_parameters.png  used on input line 15.
-(pdftex.def)             Requested size: 377.62642pt x 251.72105pt.
-<obrazky/Compresion_test_3d.png, id=564, 2007.5pt x 1876.00874pt>
-File: obrazky/Compresion_test_3d.png Graphic file (type png)
-<use obrazky/Compresion_test_3d.png>
-Package pdftex.def Info: obrazky/Compresion_test_3d.png  used on input line 21.
-
-(pdftex.def)             Requested size: 283.22162pt x 264.67184pt.
+Package pdftex.def Info: obrazky/test_parameters.png  used on input line 14.
+(pdftex.def)             Requested size: 364.19667pt x 242.78879pt.
+<obrazky/compression_displacement_magnitude.jpg, id=560, 1177.39874pt x 831.105
+pt>
+File: obrazky/compression_displacement_magnitude.jpg Graphic file (type jpg)
+<use obrazky/compression_displacement_magnitude.jpg>
+Package pdftex.def Info: obrazky/compression_displacement_magnitude.jpg  used o
+n input line 20.
+(pdftex.def)             Requested size: 364.19667pt x 257.0819pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3418,56 +3410,71 @@ pdf>
 (epstopdf)                    size: 288511 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/compression_test-ep
 s-converted-to.pdf obrazky/compression_test.eps>
-(epstopdf)             \includegraphics on input line 29.
+(epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<obrazky/compression_test-eps-converted-to.pdf, id=566, 959.585pt x 453.695pt>
+<obrazky/compression_test-eps-converted-to.pdf, id=561, 959.585pt x 453.695pt>
 File: obrazky/compression_test-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/compression_test-eps-converted-to.pdf>
 Package pdftex.def Info: obrazky/compression_test-eps-converted-to.pdf  used on
- input line 29.
-(pdftex.def)             Requested size: 472.03123pt x 223.17784pt.
+ input line 27.
+(pdftex.def)             Requested size: 455.24411pt x 215.2443pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[39
+[36
 
  <./obrazky/test_parameters.png (PNG copy)>]
 
-LaTeX Warning: Text page 40 contains only floats.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40 <./obrazky/Compresion_test_3d.png> <./obrazky/compression_test-eps-converte
-d-to.pdf>]
-<obrazky/compression_zpevneni_parametry.png, id=589, 2007.5pt x 1367.1075pt>
-File: obrazky/compression_zpevneni_parametry.png Graphic file (type png)
-<use obrazky/compression_zpevneni_parametry.png>
-Package pdftex.def Info: obrazky/compression_zpevneni_parametry.png  used on in
-put line 42.
-(pdftex.def)             Requested size: 424.82523pt x 289.29138pt.
+[37 <./obrazky/compression_displacement_magnitude.jpg> <./obrazky/compression_t
+est-eps-converted-to.pdf>]
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 33.
+
+<obrazky/compression_parameters.jpg, id=591, 1159.33125pt x 831.105pt>
+File: obrazky/compression_parameters.jpg Graphic file (type jpg)
+<use obrazky/compression_parameters.jpg>
+Package pdftex.def Info: obrazky/compression_parameters.jpg  used on input line
+ 38.
+(pdftex.def)             Requested size: 478.00769pt x 342.67018pt.
+
+Overfull \hbox (22.76358pt too wide) in paragraph at lines 38--39
+ [][] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<obrazky/compression_zpevneni_pl_strain.png, id=598, 909.3975pt x 800.9925pt>
+<obrazky/compression_zpevneni_pl_strain.png, id=592, 876.27374pt x 600.74437pt>
+
 File: obrazky/compression_zpevneni_pl_strain.png Graphic file (type png)
 <use obrazky/compression_zpevneni_pl_strain.png>
 Package pdftex.def Info: obrazky/compression_zpevneni_pl_strain.png  used on in
-put line 52.
-(pdftex.def)             Requested size: 424.82523pt x 374.18098pt.
+put line 45.
+(pdftex.def)             Requested size: 478.00769pt x 327.70627pt.
+
+Overfull \hbox (22.76358pt too wide) in paragraph at lines 45--46
+ [][] 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<obrazky/compression_zpevneni_strain.png, id=601, 909.3975pt x 800.9925pt>
+<obrazky/compression_zpevneni_strain.png, id=593, 876.27374pt x 600.74437pt>
 File: obrazky/compression_zpevneni_strain.png Graphic file (type png)
 <use obrazky/compression_zpevneni_strain.png>
 Package pdftex.def Info: obrazky/compression_zpevneni_strain.png  used on input
- line 59.
-(pdftex.def)             Requested size: 424.82523pt x 374.18098pt.
+ line 52.
+(pdftex.def)             Requested size: 478.00769pt x 327.70627pt.
+
+Overfull \hbox (22.76358pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3477,50 +3484,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]
+[38]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42 <./obrazky/compression_zpevneni_parametry.png>]
+[39 <./obrazky/compression_parameters.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43 <./obrazky/compression_zpevneni_pl_strain.png>]
+[40 <./obrazky/compression_zpevneni_pl_strain.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44 <./obrazky/compression_zpevneni_strain.png>]
-<obrazky/curing__and_temperature.png, id=626, 2007.5pt x 1357.07pt>
-File: obrazky/curing__and_temperature.png Graphic file (type png)
-<use obrazky/curing__and_temperature.png>
-Package pdftex.def Info: obrazky/curing__and_temperature.png  used on input lin
-e 76.
-(pdftex.def)             Requested size: 424.82523pt x 287.16736pt.
+[41 <./obrazky/compression_zpevneni_strain.png>]
+<obrazky/curing_temperature.jpg, id=617, 1168.365pt x 831.105pt>
+File: obrazky/curing_temperature.jpg Graphic file (type jpg)
+<use obrazky/curing_temperature.jpg>
+Package pdftex.def Info: obrazky/curing_temperature.jpg  used on input line 71.
+
+(pdftex.def)             Requested size: 409.71692pt x 291.4491pt.
 Package epstopdf Info: Source file: <obrazky/T-t.eps>
-(epstopdf)                    date: 2018-05-23 21:33:05
-(epstopdf)                    size: 22251 bytes
+(epstopdf)                    date: 2018-05-25 00:49:15
+(epstopdf)                    size: 23050 bytes
 (epstopdf)             Output file: <obrazky/T-t-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-23 21:33:57
-(epstopdf)                    size: 8518 bytes
+(epstopdf)                    date: 2018-05-25 00:49:27
+(epstopdf)                    size: 8784 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/T-t-eps-converted-t
 o.pdf obrazky/T-t.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
-<obrazky/T-t-eps-converted-to.pdf, id=628, 699.61375pt x 339.2675pt>
+<obrazky/T-t-eps-converted-to.pdf, id=618, 959.585pt x 453.695pt>
 File: obrazky/T-t-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/T-t-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/T-t-eps-converted-to.pdf  used on input line 8
-5.
-(pdftex.def)             Requested size: 424.82523pt x 206.01587pt.
+Package pdftex.def Info: obrazky/T-t-eps-converted-to.pdf  used on input line 7
+9.
+(pdftex.def)             Requested size: 409.71692pt x 193.71432pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3533,14 +3540,14 @@ Package epstopdf Info: Source file: <obrazky/CD-t.eps>
 (epstopdf)                    size: 10692 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/CD-t-eps-converted-
 to.pdf obrazky/CD-t.eps>
-(epstopdf)             \includegraphics on input line 93.
+(epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
-<obrazky/CD-t-eps-converted-to.pdf, id=630, 699.61375pt x 338.26375pt>
+<obrazky/CD-t-eps-converted-to.pdf, id=619, 699.61375pt x 338.26375pt>
 File: obrazky/CD-t-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/CD-t-eps-converted-to.pdf>
 Package pdftex.def Info: obrazky/CD-t-eps-converted-to.pdf  used on input line 
-93.
-(pdftex.def)             Requested size: 424.82523pt x 205.40634pt.
+85.
+(pdftex.def)             Requested size: 409.71692pt x 198.10284pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -3551,26 +3558,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45
+[42
 
- <./obrazky/curing__and_temperature.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[46 <./obrazky/T-t-eps-converted-to.pdf> <./obrazky/CD-t-eps-converted-to.pdf>]
-(kapitoly/kapitola6.tex) [47
-
-]
+ <./obrazky/curing_temperature.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48
+[43 <./obrazky/T-t-eps-converted-to.pdf> <./obrazky/CD-t-eps-converted-to.pdf>]
+(kapitoly/kapitola6.tex) [44
 
 ] (bachelor_thesis_vozab.bbl)
 
@@ -3579,28 +3577,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49
+[45
+
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
  (bachelor_thesis_vozab.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
 Package rerunfilecheck Info: File `bachelor_thesis_vozab.out' has not changed.
-(rerunfilecheck)             Checksum: 7CEF58BADF694070AF0693CDF167358A;2010.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
+(rerunfilecheck)             Checksum: 35D75325AF14E7BCC6166203228447CC;1995.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
  ) 
 Here is how much of TeX's memory you used:
- 34849 strings out of 493307
- 664304 string characters out of 3138823
- 811763 words of memory out of 3000000
- 37600 multiletter control sequences out of 15000+200000
+ 34856 strings out of 493307
+ 664526 string characters out of 3138823
+ 813992 words of memory out of 3000000
+ 37608 multiletter control sequences out of 15000+200000
  546172 words of font info for 83 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 62i,18n,77p,10400b,979s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,18n,77p,10400b,1013s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -3629,9 +3628,9 @@ rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on bachelor_thesis_vozab.pdf (49 pages, 2969872 bytes).
+Output written on bachelor_thesis_vozab.pdf (45 pages, 3090750 bytes).
 PDF statistics:
- 772 PDF objects out of 1000 (max. 8388607)
- 188 named destinations out of 1000 (max. 500000)
+ 760 PDF objects out of 1000 (max. 8388607)
+ 186 named destinations out of 1000 (max. 500000)
  354 words of extra memory for PDF output out of 10000 (max. 10000000)
 

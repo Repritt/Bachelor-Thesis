@@ -1,4 +1,4 @@
-\documentclass[12pt,titlepage, twoside]{article}
+\documentclass[12pt,titlepage, oneside]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage[titletoc]{appendix}
@@ -17,13 +17,13 @@
 \usepackage{amsfonts}
 \usepackage{fixltx2e}
 \usepackage{nomencl}
-\usepackage{natbib}
+%\usepackage{natbib}
 \usepackage{setspace}
 \usepackage{caption}
 \usepackage{subcaption}
 %\usepackage[toc,page]{appendix}
 \usepackage{fancyhdr}
-\usepackage[top = 2cm, bottom = 2cm, outer=2 cm, inner = 3cm]{geometry}
+\usepackage[top = 2cm, bottom = 2cm, outer=2 cm, inner = 3cm, a4paper]{geometry}
 \usepackage{footnote}
 \usepackage{mathtools}
 \usepackage[export]{adjustbox}
@@ -51,6 +51,17 @@
 
 %% for using bibtex
 \usepackage{natbib}
+\bibliographystyle{ieeetr}
+%\usepackage[sort&compress]{natbib}
+%\setcitestyle{numbers}
+%\citestyle{nature}
+%\bibliographystyle{unsrtnat}
+
+
+%\usepackage[sort&compress]{natbib}
+%\bibliographystyle{plainnat}
+%\bibliographystyle{spbasic-nosort}
+%\usepackage{natbib}
 %\setcitestyle{numbers,square,sort&compress}
 
 
@@ -59,7 +70,8 @@
 
 %\usepackage[numbers,comma,sort&compress]{natbib}
 %Calls bibliography commands 
-\bibliographystyle{ieeetr}
+%\setcitestyle{square}
+
 
 
 %\usepackage{blockarray}% http://ctan.org/pkg/blkarray
@@ -166,10 +178,11 @@
 
 \thispagestyle{empty}
 \begin{center}\setstretch{1.0}{
-		{\LARGE \textsc CZECH TECHNICAL UNIVERSITY \\[0.3cm]IN PRAGUE}\\[2ex]
+		{\LARGE \textsc\mbox{ CZECH TECHNICAL UNIVERSITY \\[0.3cm]IN PRAGUE}\\[2ex]
 		{\LARGE \textsc Faculty of Civil Engineering}\\[2ex]
 		{\LARGE \textsc Department of Mechanics}\\
 		\vspace{1cm}
+	}
 		\begin{figure}[ht!]
 			\begin{center}
 				{\includegraphics[width=5cm]{lev_novy.eps}}

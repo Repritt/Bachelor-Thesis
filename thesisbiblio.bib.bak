@@ -13,14 +13,11 @@
   journal     = {ACI 318M-08},
 }
 
-
-@manual
-{		
-	hilti_anchors,
-	author         	= {Hilti},
-	year           	= {2012},
-	title          	= {Anchor Fastening	Technology Manual},
-
+@Manual{hilti_anchors,
+  title  = {Anchor Fastening Technology Manual},
+  author = {Hilti},
+  year   = {2012},
+  url    = {https://ask.hilti.com/article/mechanical-vs-adhesive-anchors/rysrkl},
 }
 
 
