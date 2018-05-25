@@ -51,7 +51,7 @@ Drucker-Prager (DP) model of plasticity can be seen as the extension of the von 
 \begin{figure}[h!]
 	\centering	
 	\includegraphics[width=0.7\textwidth, angle=0]{obrazky/drucker_prager_meridian_my.png}
-	\caption[Drucker-Prager yield criterion on meridian plane $T$]{Drucker-Prager yield criterion in meridian plane \cite{geofem}: F is yield function; G means plastic potential function.} \label{obr:M1}
+	\caption[Drucker-Prager yield criterion on meridian plane]{Drucker-Prager yield criterion in meridian plane \cite{geofem}: F is yield function; G means plastic potential function.} \label{obr:M1}
 \end{figure}
 
 \subsubsection{Drucker-Prager yield surface}\label{sec:drucker-prager_yield_criterion}
@@ -77,7 +77,7 @@ and $M_{JP}$ is used for approximation to the Mohr-Coulomb model, which can be d
 \begin{figure}[h!]
 	\centering	
 	\includegraphics[width=0.8\textwidth, angle=0]{obrazky/drucker-prager_eng.png}
-	\caption[Drucker-Prager a Mohr-Coulomb model $T$]{Drucker-Prager and Mohr-Coulomb yield criterion in space of principal stresses \cite{geofem}. \label{obr:F1}}
+	\caption[Drucker-Prager and Mohr-Coulomb model]{Drucker-Prager and Mohr-Coulomb yield criterion in space of principal stresses \cite{geofem}. \label{obr:F1}}
 \end{figure}
 
 
@@ -90,15 +90,14 @@ where $\varphi$ is the angle of internal friction. The second, blue circle, matc
 \begin{equation}\label{eq:f_Mjp_-30}
 	M_{JP}^{\theta=-30^\circ} = \dfrac{2\sqrt{3}\sin\varphi}{3+\sin \varphi},
 \end{equation}
-
-and the last, the green circle is inscribed, and can be determined by
+and the last, the green circle, is inscribed, and can be determined by
 
 \begin{equation}\label{eq:f_Mjp_i}
-	M_{JP} = \dfrac{\sin(\varphi)}{\cos(\theta)-\frac{\sin(\theta)\sin(\varphi)}{\sqrt{3}}},
+	M_{JP}^{ins} = \dfrac{\sin(\varphi)}{\cos(\theta)^{ins}-\frac{\sin(\theta^{ins})\sin(\varphi)}{\sqrt{3}}},
 \end{equation}
 
 \begin{equation}\label{eq:f_theta}
-	\theta = \arctan{\frac{\sin{\varphi}}{\sqrt{3}}}.
+	\theta^{ins} = \arctan{\frac{\sin{\varphi}}{\sqrt{3}}}.
 \end{equation}
 
 The Drucker-Prager model is not defined just by the yield function $F$ but also $G$, which is the plastic potential function, see Fig. \ref{obr:M1}. $G$ defines vector of return to the yield of plasticity, when it is overpassed, and can be written in the form 
@@ -114,14 +113,14 @@ where $a_{pp}$ follows from Fig. \ref{obr:M1}. When matching Eqs. (\ref{eq:f_yc}
 By substituting $a_{pp}$ into the plastic potential function (\ref{eq:G}), we arrive at
 
 \begin{equation}\label{eq:plastic_potential}
-	G = J + \left[ \sigma_m - - \sigma_m + ( \sigma_m^c - c\cot\varphi) \dfrac{M_{JP}}{M_{JP}^{PP}} \right] M_{JP}^{PP} = 0,
+	G = J + \left[ \sigma_m - - \sigma_m^c + ( \sigma_m^c - c\cot\varphi) \dfrac{M_{JP}}{M_{JP}^{PP}} \right] M_{JP}^{PP} = 0,
 \end{equation}
 where $M_{JP}^{PP}$ is the gradient of the plastic potential function in $J-\sigma_m$ space (Fig \ref{obr:M1}). When functions of plastic potential and yield function  $M_{JP}^{PP}=M_{JP}$, Drucker-Prager model becomes associated. $M_{JP}^{PP}$  can be referred as the angle of dilatation $\psi$, and can be substituted for $\varphi$ in Equations (\ref{eq:f_Mjp_30})-(\ref{eq:f_theta}).
  
 \subsubsection{Hardening and softening modulus}
 \indent
 
- In Drucker-Prager model is implemented derivation of hardening/softening modulus is inspired by the von Mises. To that end, we choose multi-linear form of the hardening/softening law for the cohesion $c$ and the angle of internal friction $\varphi$, as shown in Fig. \ref{obr:H}, where the dependence of $c$ and $\varphi$ on the deviatoric plastic strain $E_d^{pl}$ can be seen. Though the components of vector $\kappa$ may vary for each of the two strength parameters, in the present formulation a single hardening parameter is assumed 
+ In Drucker-Prager model implemented derivation of hardening/softening modulus is inspired by the von Mises. To that end, we choose multi-linear form of the hardening/softening law for the cohesion $c$ and the angle of internal friction $\varphi$, as shown in Fig. \ref{obr:H}, where the dependence of $c$ and $\varphi$ on the deviatoric plastic strain $E_d^{pl}$ can be seen. Though the components of vector $\kappa$ may vary for each of the two strength parameters, in the present formulation a single hardening parameter is assumed 
  
 \begin{equation}\label{eq:kappa}
 	\kappa = \kappa_{1} = \kappa_{2} = E_d^{pl}.
@@ -129,7 +128,7 @@ where $M_{JP}^{PP}$ is the gradient of the plastic potential function in $J-\sig
 
 \begin{figure}[h!]
 	\centering	
-	\includegraphics[width=0.75\textwidth, angle=0]{obrazky/hardening_softening_modulus_my.png}
+	\includegraphics[width=0.70\textwidth, angle=0]{obrazky/hardening_softening_modulus_my.png}
 	\caption[Hardening and softening modulus]{Hardening and softening modulus \cite{geofem}: $c_{in}$ and $c_{res}$, respective $\varphi_{in}$ and $\varphi_{res}$ represent initial and residual values of $c$ and $\varphi$.} \label{obr:H}
 \end{figure}
  
@@ -171,7 +170,7 @@ where
 \dv{c}{\kappa}& = \dv{c}{E_d^{pl}} = h_c,\\
 \dv{\varphi}{\kappa}& = \dv{\varphi}{E_d^{pl}} = h_\varphi
 \end{align}
-Partial derivations of $M_{JP}$ with respect to $\varphi$ for selected values of $\theta$ are
+Derivations of $M_{JP}$ with respect to $\varphi$ for selected values of $\theta$ are
 
 \begin{align}
 	\dv{M_{JP}^{ins}}{\varphi}					& = \dfrac{3\sqrt{3}\cos \varphi}{(3 + \sin^2 \varphi)^{\frac{3}{2}}},\\
@@ -180,8 +179,8 @@ Partial derivations of $M_{JP}$ with respect to $\varphi$ for selected values of
 \end{align}
 By accepting the strain hardening approach, we can write
 
-\begin{align}
-	\dd\kappa& = \dd E_d^{pl} = \sqrt{2(\Delta e^{pl})^T \Delta e^{pl} } = \dd \lambda \Rightarrow \dv{E_d^{pl}}{\lambda} = 1.\label{eq:dkappa},
+\begin{align}\label{eq:dkappa}
+	\dd\kappa& = \dd E_d^{pl} = \sqrt{2(\Delta e^{pl})^T \Delta e^{pl} } = \dd \lambda \Rightarrow \dv{E_d^{pl}}{\lambda} = 1,
 \end{align}
 where  $\Delta e^{pl}$ stands for the increment of deviatoric plastic strain vector. With final substitution of Eq. (\ref{eq:F/phi})-(\ref{eq:dkappa}) back into Eq. (\ref{eq:H}), result is searched form of the hardening/softening modulus as
 
@@ -196,7 +195,7 @@ Total stress can be calculated as
 \begin{equation}\label{eq:f_sigma}
 \sigma = \text{\textbf{D}}^{el} \varepsilon_{el},
 \end{equation}
-where \textbf{D}$^{el}$ is ordinary stiffness matrix and $\varepsilon_e$ is elastic deformation. Calculation is performed in explicit software \cite{mars}, so model is implemented with increments. Then can be equation modified as
+where \textbf{D}$^{el}$ is an ordinary isotropic stiffness matrix and $\varepsilon_{el}$ is a elastic deformation. Calculation is performed in explicit software \cite{mars}, so model is implemented in the incremental form. Then Eq. \ref{eq:f_sigma} is modified as
 
 \begin{equation}\label{eq:f_sigma1}
 	\sigma^{n+1} = \sigma^n+ \text{\textbf{D}}^{el} \mathrm{d} \varepsilon_{el}.
@@ -211,7 +210,7 @@ During numerical procedure, the trial stress $ \sigma_{tr}^{n+1} = \sigma^n + \t
 	\item $\psi$ - Angle of dilatation.
 \end{itemize}
 
-Before describing the Jacobian matrix, we need to define basic equations, to be used for the of all variables. Assume that the plastic strain increment have the form 
+Before describing the Jacobian matrix, we need to define basic equations, to be used for the definition of all variables. Assume that the plastic strain increment have the form 
 
 \begin{equation}
 	\dd \varepsilon^{pl} = \Delta \lambda \pdv{G}{\sigma},
@@ -263,20 +262,19 @@ where $K$ is the bulk modulus and $\mu$ represent the elastic shear modulus to a
 	\item Jacobian matrix $[\textbf{H}]$
 	\begin{equation}
 		[\text{\textbf{H}}] = \mqty[\pdv{J}{\Delta \lambda} \pdv{\mathcal{F}}{\sigma_m} \pdv{\sigma_m}{\Delta \lambda} & \pdv{\mathcal{F}}{c} & \pdv{\mathcal{F}}{\varphi} + \pdv{\mathcal{F}}{M_{JP}} \pdv{M_{JP}}{\sin \varphi} & \pdv{\mathcal{F}}{M_{JP}^{PP}} \pdv{M_{JP}^{PP}}{\sin \psi}\\
-		\pdv{\mathcal{C}}{\hat{c}} = \pdv{\hat{c}}{\Delta \lambda} & \pdv{\mathcal{C}}{c} & 0 & 0\\
-		\pdv{\mathrm{\Phi}}{\sin \hat{\varphi}} = \pdv{\hat{\varphi}}{\Delta \lambda} & 0 & \pdv{\mathrm{\Phi}}{\sin \varphi} & 0 \\
+		\pdv{\mathcal{C}}{\hat{c}} \pdv{\hat{c}}{\Delta \lambda} & \pdv{\mathcal{C}}{c} & 0 & 0\\
+		\pdv{\mathrm{\Phi}}{\sin \hat{\varphi}} \pdv{\hat{\varphi}}{\Delta \lambda} & 0 & \pdv{\mathrm{\Phi}}{\sin \varphi} & 0 \\
 		0 & 0 & \pdv{\mathrm{\Psi}}{\sin \hat{\psi}} \pdv{\sin \hat{\psi}}{\sin \varphi} & \pdv{\mathrm{\Psi}}{\sin \psi}]
 	\end{equation}
 	where partial derivations are
-	
 	\begin{align}
 		&\pdv{J}{\Delta \lambda} \pdv{\mathcal{F}}{\sigma_m} \pdv{\sigma_m}{\Delta \lambda}  = -\mu - K M_{JP}^{PP}M_{JP},\\
 		&\pdv{\mathcal{F}}{c} = -M_{JP}\tan\varphi,\\
 		&\pdv{\mathcal{F}}{\varphi} + \pdv{\mathcal{F}}{M_{JP}} \pdv{M_{JP}}{\sin \varphi} = M_{JP} \dfrac{c}{\sin^2\varphi \cos\varphi} + \left( \sigma_m \dfrac{c}{\tan \varphi} \right) \dv{M_{JP}}{\sin \varphi}, \\
 		&\pdv{\mathcal{F}}{M_{JP}^{PP}} \pdv{M_{JP}^{PP}}{\sin \psi} = -K \Delta \lambda \dv{M_{JP}^{PP}}{\sin \psi},\\
-		&\pdv{\mathcal{C}}{\hat{c}} = \pdv{\hat{c}}{\Delta \lambda} = -h_c, \\
+		&\pdv{\mathcal{C}}{\hat{c}} \pdv{\hat{c}}{\Delta \lambda} = -h_c, \\
 		&\pdv{\mathcal{C}}{c} = 1,\\
-		&\pdv{\mathrm{\Phi}}{\sin \hat{\varphi}} = \pdv{\hat{\varphi}}{\Delta \lambda} = -\cos(\varphi) h_{\varphi},\\
+		&\pdv{\mathrm{\Phi}}{\sin \hat{\varphi}} \pdv{\hat{\varphi}}{\Delta \lambda} = -\cos(\varphi) h_{\varphi},\\
 		&\pdv{\mathrm{\Phi}}{\sin \varphi} = 1,\\
 		&\pdv{\mathrm{\Psi}}{\sin \hat{\psi}} \pdv{\sin \hat{\psi}}{\sin \varphi} = -\dfrac{1 - \sin^2\varphi_{cv} }{1-\sin \varphi \sin \varphi_{cv}},\\
 		&\pdv{\mathrm{\Psi}}{\sin \psi} = 1.
@@ -302,6 +300,13 @@ Two cones are shown in Fig. \ref{obr:apex_cones}. First cone $K_\varepsilon$ (fo
 	\dot{\varepsilon}_v \geq M_{JP}^{PP} \dot{E}_d^{pl}.
 \end{equation}
 
+
+\begin{figure}[h!]
+	\centering  
+	\includegraphics[width=0.8\textwidth, angle=0]{obrazky/apex_cones_my.png}
+	\caption[Apex abmissible regions]{Apex admissible regions for stresses and plastic strain rates \cite{geofem}.} \label{obr:apex_cones}
+\end{figure}
+
 In the literature we can find two different stands for performing apex problem:
 
 \begin{itemize}
@@ -309,6 +314,7 @@ In the literature we can find two different stands for performing apex problem:
 	\item Return with hardening/softening material.
 \end{itemize}
 At the first case, stress point just return to the apex (Fig.\ref{obr:apex_cones}), so stress takes the form
+
 
 \begin{equation}\label{eq:sigPL}
 	\sigma^{i+1} = 3c^{i} \cot \varphi^{i} \textbf{m}.
@@ -324,11 +330,6 @@ where $e^{pl}$ represent deviatoric plastic strain vector. As next, hardening of
 	\sigma^{i+1} = 3c^{i+1} \cot \varphi^{i+1} \textbf{m}.
 \end{equation}
 
-\begin{figure}[h!]
-	\centering  
-	\includegraphics[width=0.8\textwidth, angle=0]{obrazky/apex_cones_my.png}
-	\caption[Apex abmissible regions]{Apex admissible regions for stresses and plastic strain rates \cite{geofem}.} \label{obr:apex_cones}
-\end{figure}
 
 \subsection{Curing model}
 \indent
@@ -343,7 +344,7 @@ This model simulates generation of heat during the curing of polymers. The curin
 where $H_r$ represent the total heat generated. That means $\phi(t)$ increases from $0$ to $1$ at fully cured state. Rate of heat generation per unit mass have the form
 
 \begin{equation}
-	r = \dv{H_r\phi}{t}.
+	r = \dv{(H_r\phi)}{t}.
 \end{equation}
 The curing process is defined by a kinetic equation 
 
@@ -357,11 +358,11 @@ where $T$ represents temperature and $f(T,\phi)\geq 0$ is represented by
 \end{equation}
 
 \begin{equation}
-	k_1(T) = A_1 \exp \left(\dfrac{\Delta E_1}{TR}\right),
+	k_1(T) = A_1 \exp \left(-\dfrac{\Delta E_1}{TR}\right),
 \end{equation}
 
 \begin{equation}
-	k_2(T) = A_2 \exp \left( \dfrac{\Delta E_2}{TR}\right),
+	k_2(T) = A_2 \exp \left( -\dfrac{\Delta E_2}{TR}\right),
 \end{equation}
 where $m$ and $n$ are constants, $R$ means the gas constant, $A_1$, respective $A_2$, are frequency like constants and $\Delta E_1$, respective $\Delta E_2$, represent activation energies. For more information about these constants see also \cite{heinrich2012generation}.
 When the structural composite is cured, process of heat generation due to curing is affected by heat conduction due to the presence of an external surface or along fibers. This process can be described by the local form of the first law of thermodynamics as
@@ -398,11 +399,11 @@ where $\kappa$ is the thermal conductivity. It is possible that the thermal cond
  where total moduli can be determined by an analytical functions:
  
  \begin{align}
- 	\mu_{tot} &= \dfrac{\arctan((\phi+\dfrac{1}{2})\beta_\mu)}{\arctan(\dfrac{\beta_\mu}{2})}(\mu_f-\mu_s)+\left( \dfrac{\mu_f + \mu_s}{2} \right),\\
- 	M_{tot} &= \dfrac{\arctan((\phi+\dfrac{1}{2})\beta_M)}{\arctan(\dfrac{\beta_M}{2})}(M_f-M_s)+\left( \dfrac{M_f + M_s}{2} \right).
+ 	\mu_{tot} &= \dfrac{\arctan((\phi-\frac{1}{2})\beta_\mu)}{\arctan(\dfrac{\beta_\mu}{2})}(\mu_f-\mu_s)+\left( \dfrac{\mu_f + \mu_s}{2} \right),\\
+ 	M_{tot} &= \dfrac{\arctan((\phi-\frac{1}{2})\beta_M)}{\arctan(\dfrac{\beta_M}{2})}(M_f-M_s)+\left( \dfrac{M_f + M_s}{2} \right).
  \end{align}
  
  \subsection{Complex material model}
  \indent
  
- For the simulation of thermosetting polymers and their response we choose the approach with two models serially connected. The aforementioned curing model is employed to calculate the evolution of material properties utilized by the Drucker-Prager model. This model uses the modified material parameters and calculates current stress and strain in a current time.. This would affect model behavior and, hopefully, provide more realistic results than a simple Drucker-Prager model. Note that this thesis represents a preliminary study and it is expected that more complex mechanical model, e.g. Microplane M4, will be utilized to characterize the mechanical behavior in more details. However, only results without the coupling are shown hereafter to verify the proper implementation of involved material models.
+ For the simulation of thermosetting polymers and their response we choose the approach with two serially coupled models. The aforementioned curing model is employed to calculate the evolution of material properties utilized by the Drucker-Prager model. This model uses the modified material parameters and calculates current stress and strain in a current time.. This would affect model behavior and, hopefully, provide more realistic results than a simple Drucker-Prager model. Note that this thesis represents a preliminary study and it is expected that more complex mechanical model, e.g. Microplane M4, will be utilized to characterize the mechanical behavior in more details. However, only results without the coupling are shown hereafter to verify the proper implementation of involved material models.

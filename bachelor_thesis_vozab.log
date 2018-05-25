@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.4)  25 MAY 2018 05:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.4)  25 MAY 2018 14:00
 entering extended mode
 **./bachelor_thesis_vozab.tex
 (bachelor_thesis_vozab.tex
@@ -3022,45 +3022,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--18
  []
 
 
-Overfull \hbox (0.1771pt too wide) in paragraph at lines 25--28
-[]\OT1/cmr/m/n/12 Model v teto praci je slozen ze dvou cast. Prvn je m
-odel vytvr-zovan, ktery zohlednuje
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--28
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--28
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 33--36
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--46
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--46
+Underfull \hbox (badness 10000) in paragraph at lines 40--43
 
  []
 
@@ -3128,7 +3122,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ] (kapitoly/kapitola2.tex
-<obrazky/post_installed_anchor_types_repaired.png, id=240, 840.13875pt x 271.01
+<obrazky/post_installed_anchor_types_repaired.png, id=239, 840.13875pt x 271.01
 25pt>
 File: obrazky/post_installed_anchor_types_repaired.png Graphic file (type png)
 <use obrazky/post_installed_anchor_types_repaired.png>
@@ -3139,7 +3133,7 @@ Package pdftex.def Info: obrazky/post_installed_anchor_types_repaired.png  used
 
 
  <./obrazky/post_installed_anchor_types_repaired.png>]
-<obrazky/anchor_types_repaired.png, id=256, 384.6872pt x 368.1253pt>
+<obrazky/anchor_types_repaired.png, id=257, 384.6872pt x 368.1253pt>
 File: obrazky/anchor_types_repaired.png Graphic file (type png)
 <use obrazky/anchor_types_repaired.png>
 Package pdftex.def Info: obrazky/anchor_types_repaired.png  used on input line 
@@ -3160,19 +3154,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13]
-<obrazky/failure_models_tensile.png, id=274, 304.13625pt x 439.6425pt>
+<obrazky/failure_models_tensile.png, id=275, 304.13625pt x 439.6425pt>
 File: obrazky/failure_models_tensile.png Graphic file (type png)
 <use obrazky/failure_models_tensile.png>
 Package pdftex.def Info: obrazky/failure_models_tensile.png  used on input line
  81.
 (pdftex.def)             Requested size: 204.85846pt x 296.14212pt.
-<obrazky/failure_models_shear.png, id=275, 304.13625pt x 440.39531pt>
+<obrazky/failure_models_shear.png, id=276, 304.13625pt x 440.39531pt>
 File: obrazky/failure_models_shear.png Graphic file (type png)
 <use obrazky/failure_models_shear.png>
 Package pdftex.def Info: obrazky/failure_models_shear.png  used on input line 8
 7.
 (pdftex.def)             Requested size: 204.85846pt x 296.64922pt.
-<obrazky/adhesive_failture_models_repaired.png, id=278, 352.31625pt x 307.1475p
+<obrazky/adhesive_failture_models_repaired.png, id=279, 352.31625pt x 307.1475p
 t>
 File: obrazky/adhesive_failture_models_repaired.png Graphic file (type png)
 <use obrazky/adhesive_failture_models_repaired.png>
@@ -3216,12 +3210,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [18]
-<obrazky/mechanical_tests.png, id=324, 1445.4pt x 722.7pt>
+<obrazky/mechanical_tests.png, id=325, 1445.4pt x 722.7pt>
 File: obrazky/mechanical_tests.png Graphic file (type png)
 <use obrazky/mechanical_tests.png>
 Package pdftex.def Info: obrazky/mechanical_tests.png  used on input line 46.
 (pdftex.def)             Requested size: 318.66948pt x 159.33633pt.
-<obrazky/effect_on_cross_link_density.png, id=326, 797.22844pt x 325.96782pt>
+<obrazky/effect_on_cross_link_density.png, id=327, 797.22844pt x 325.96782pt>
 File: obrazky/effect_on_cross_link_density.png Graphic file (type png)
 <use obrazky/effect_on_cross_link_density.png>
 Package pdftex.def Info: obrazky/effect_on_cross_link_density.png  used on inpu
@@ -3256,7 +3250,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22] (kapitoly/kapitola4.tex
-<obrazky/drucker_prager_meridian_my.png, id=359, 3613.5pt x 2409.0pt>
+<obrazky/drucker_prager_meridian_my.png, id=361, 3613.5pt x 2409.0pt>
 File: obrazky/drucker_prager_meridian_my.png Graphic file (type png)
 <use obrazky/drucker_prager_meridian_my.png>
 Package pdftex.def Info: obrazky/drucker_prager_meridian_my.png  used on input 
@@ -3269,7 +3263,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [23
 
 ]
-<obrazky/drucker-prager_eng.png, id=371, 3613.5pt x 2409.0pt>
+<obrazky/drucker-prager_eng.png, id=373, 3613.5pt x 2409.0pt>
 File: obrazky/drucker-prager_eng.png Graphic file (type png)
 <use obrazky/drucker-prager_eng.png>
 Package pdftex.def Info: obrazky/drucker-prager_eng.png  used on input line 79.
@@ -3293,12 +3287,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25 <./obrazky/drucker-prager_eng.png (PNG copy)>]
-<obrazky/hardening_softening_modulus_my.png, id=402, 2409.0pt x 3412.75pt>
+<obrazky/hardening_softening_modulus_my.png, id=405, 2409.0pt x 3412.75pt>
 File: obrazky/hardening_softening_modulus_my.png Graphic file (type png)
 <use obrazky/hardening_softening_modulus_my.png>
 Package pdftex.def Info: obrazky/hardening_softening_modulus_my.png  used on in
-put line 132.
-(pdftex.def)             Requested size: 341.43307pt x 483.66615pt.
+put line 131.
+(pdftex.def)             Requested size: 318.66948pt x 451.43214pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3310,7 +3304,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26]
-Overfull \vbox (39.81532pt too high) has occurred while \output is active []
+Overfull \vbox (7.58131pt too high) has occurred while \output is active []
 
 
 
@@ -3348,29 +3342,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [31]
-<obrazky/apex_cones_my.png, id=497, 2710.125pt x 1806.75pt>
+<obrazky/apex_cones_my.png, id=496, 2710.125pt x 1806.75pt>
 File: obrazky/apex_cones_my.png Graphic file (type png)
 <use obrazky/apex_cones_my.png>
-Package pdftex.def Info: obrazky/apex_cones_my.png  used on input line 329.
+Package pdftex.def Info: obrazky/apex_cones_my.png  used on input line 306.
 (pdftex.def)             Requested size: 364.19667pt x 242.79797pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[32 <./obrazky/apex_cones_my.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33 <./obrazky/apex_cones_my.png>]
+[33]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3385,22 +3376,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [35] (kapitoly/kapitola5.tex
-<obrazky/test_parameters.png, id=557, 3613.5pt x 2409.0pt>
+<obrazky/test_parameters.png, id=560, 3613.5pt x 2409.0pt>
 File: obrazky/test_parameters.png Graphic file (type png)
 <use obrazky/test_parameters.png>
-Package pdftex.def Info: obrazky/test_parameters.png  used on input line 14.
+Package pdftex.def Info: obrazky/test_parameters.png  used on input line 15.
 (pdftex.def)             Requested size: 364.19667pt x 242.78879pt.
-<obrazky/compression_displacement_magnitude.jpg, id=560, 1177.39874pt x 831.105
+<obrazky/compression_displacement_magnitude.jpg, id=563, 1177.39874pt x 831.105
 pt>
 File: obrazky/compression_displacement_magnitude.jpg Graphic file (type jpg)
 <use obrazky/compression_displacement_magnitude.jpg>
 Package pdftex.def Info: obrazky/compression_displacement_magnitude.jpg  used o
-n input line 20.
+n input line 21.
 (pdftex.def)             Requested size: 364.19667pt x 257.0819pt.
+ [36
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ <./obrazky/test_parameters.png (PNG copy)>]
 Package epstopdf Info: Source file: <obrazky/compression_test.eps>
 (epstopdf)                    date: 2018-05-23 23:31:31
 (epstopdf)                    size: 5101663 bytes
@@ -3410,20 +3400,15 @@ pdf>
 (epstopdf)                    size: 288511 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/compression_test-ep
 s-converted-to.pdf obrazky/compression_test.eps>
-(epstopdf)             \includegraphics on input line 27.
+(epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<obrazky/compression_test-eps-converted-to.pdf, id=561, 959.585pt x 453.695pt>
+<obrazky/compression_test-eps-converted-to.pdf, id=569, 959.585pt x 453.695pt>
 File: obrazky/compression_test-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/compression_test-eps-converted-to.pdf>
 Package pdftex.def Info: obrazky/compression_test-eps-converted-to.pdf  used on
- input line 27.
+ input line 28.
 (pdftex.def)             Requested size: 455.24411pt x 215.2443pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[36
-
- <./obrazky/test_parameters.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3433,45 +3418,45 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [37 <./obrazky/compression_displacement_magnitude.jpg> <./obrazky/compression_t
 est-eps-converted-to.pdf>]
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 33.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 34.
 
-<obrazky/compression_parameters.jpg, id=591, 1159.33125pt x 831.105pt>
+<obrazky/compression_parameters.jpg, id=594, 1159.33125pt x 831.105pt>
 File: obrazky/compression_parameters.jpg Graphic file (type jpg)
 <use obrazky/compression_parameters.jpg>
 Package pdftex.def Info: obrazky/compression_parameters.jpg  used on input line
- 38.
+ 39.
 (pdftex.def)             Requested size: 478.00769pt x 342.67018pt.
 
-Overfull \hbox (22.76358pt too wide) in paragraph at lines 38--39
+Overfull \hbox (22.76358pt too wide) in paragraph at lines 39--40
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<obrazky/compression_zpevneni_pl_strain.png, id=592, 876.27374pt x 600.74437pt>
+<obrazky/compression_zpevneni_pl_strain.png, id=595, 876.27374pt x 600.74437pt>
 
 File: obrazky/compression_zpevneni_pl_strain.png Graphic file (type png)
 <use obrazky/compression_zpevneni_pl_strain.png>
 Package pdftex.def Info: obrazky/compression_zpevneni_pl_strain.png  used on in
-put line 45.
+put line 46.
 (pdftex.def)             Requested size: 478.00769pt x 327.70627pt.
 
-Overfull \hbox (22.76358pt too wide) in paragraph at lines 45--46
+Overfull \hbox (22.76358pt too wide) in paragraph at lines 46--47
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<obrazky/compression_zpevneni_strain.png, id=593, 876.27374pt x 600.74437pt>
+<obrazky/compression_zpevneni_strain.png, id=596, 876.27374pt x 600.74437pt>
 File: obrazky/compression_zpevneni_strain.png Graphic file (type png)
 <use obrazky/compression_zpevneni_strain.png>
 Package pdftex.def Info: obrazky/compression_zpevneni_strain.png  used on input
- line 52.
+ line 53.
 (pdftex.def)             Requested size: 478.00769pt x 327.70627pt.
 
-Overfull \hbox (22.76358pt too wide) in paragraph at lines 52--53
+Overfull \hbox (22.76358pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
@@ -3506,11 +3491,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41 <./obrazky/compression_zpevneni_strain.png>]
-<obrazky/curing_temperature.jpg, id=617, 1168.365pt x 831.105pt>
-File: obrazky/curing_temperature.jpg Graphic file (type jpg)
-<use obrazky/curing_temperature.jpg>
-Package pdftex.def Info: obrazky/curing_temperature.jpg  used on input line 71.
-
+<obrazky/curing_temperature_t200.jpg, id=620, 1168.365pt x 831.105pt>
+File: obrazky/curing_temperature_t200.jpg Graphic file (type jpg)
+<use obrazky/curing_temperature_t200.jpg>
+Package pdftex.def Info: obrazky/curing_temperature_t200.jpg  used on input lin
+e 72.
 (pdftex.def)             Requested size: 409.71692pt x 291.4491pt.
 Package epstopdf Info: Source file: <obrazky/T-t.eps>
 (epstopdf)                    date: 2018-05-25 00:49:15
@@ -3520,13 +3505,13 @@ Package epstopdf Info: Source file: <obrazky/T-t.eps>
 (epstopdf)                    size: 8784 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/T-t-eps-converted-t
 o.pdf obrazky/T-t.eps>
-(epstopdf)             \includegraphics on input line 79.
+(epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
-<obrazky/T-t-eps-converted-to.pdf, id=618, 959.585pt x 453.695pt>
+<obrazky/T-t-eps-converted-to.pdf, id=621, 959.585pt x 453.695pt>
 File: obrazky/T-t-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/T-t-eps-converted-to.pdf>
-Package pdftex.def Info: obrazky/T-t-eps-converted-to.pdf  used on input line 7
-9.
+Package pdftex.def Info: obrazky/T-t-eps-converted-to.pdf  used on input line 8
+0.
 (pdftex.def)             Requested size: 409.71692pt x 193.71432pt.
 
 
@@ -3540,13 +3525,13 @@ Package epstopdf Info: Source file: <obrazky/CD-t.eps>
 (epstopdf)                    size: 10692 bytes
 (epstopdf)             Command: <epstopdf --outfile=obrazky/CD-t-eps-converted-
 to.pdf obrazky/CD-t.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
-<obrazky/CD-t-eps-converted-to.pdf, id=619, 699.61375pt x 338.26375pt>
+<obrazky/CD-t-eps-converted-to.pdf, id=622, 699.61375pt x 338.26375pt>
 File: obrazky/CD-t-eps-converted-to.pdf Graphic file (type pdf)
 <use obrazky/CD-t-eps-converted-to.pdf>
 Package pdftex.def Info: obrazky/CD-t-eps-converted-to.pdf  used on input line 
-85.
+86.
 (pdftex.def)             Requested size: 409.71692pt x 198.10284pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3560,7 +3545,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [42
 
- <./obrazky/curing_temperature.jpg>]
+ <./obrazky/curing_temperature_t200.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3594,8 +3579,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
  ) 
 Here is how much of TeX's memory you used:
  34856 strings out of 493307
- 664526 string characters out of 3138823
- 813992 words of memory out of 3000000
+ 664551 string characters out of 3138823
+ 813997 words of memory out of 3000000
  37608 multiletter control sequences out of 15000+200000
  546172 words of font info for 83 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -3628,9 +3613,9 @@ rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on bachelor_thesis_vozab.pdf (45 pages, 3090750 bytes).
+Output written on bachelor_thesis_vozab.pdf (45 pages, 3090899 bytes).
 PDF statistics:
- 760 PDF objects out of 1000 (max. 8388607)
+ 763 PDF objects out of 1000 (max. 8388607)
  186 named destinations out of 1000 (max. 500000)
  354 words of extra memory for PDF output out of 10000 (max. 10000000)
 

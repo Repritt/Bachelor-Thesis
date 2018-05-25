@@ -2,7 +2,8 @@
 \section{Results}
 \indent
 
-Both implemented models in MARS solver \cite{mars} were tested and compared with the experimental data presentation \cite{heinrich2012generation,Deuch_phd_thesis}. 
+To verify the model implementation of both aforementioned models in MARS solver \cite{mars}, the numerically obtained data are compared to experimental measurements \cite{heinrich2012generation,Deuch_phd_thesis} and corresponding conclusions are drawn.
+
 
 \subsection{Testing of Drucker-Prager model}
 \indent
@@ -12,7 +13,7 @@ To verify the proper implementation and to check the ability of Drucker-Prager m
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.8\textwidth]{obrazky/test_parameters.png}
-	\caption[Compression test parameters]{Compression test parameters \cite{Deuch_phd_thesis}: a) setup; b) parameters of the specimen.}\label{obr:test_param}
+	\caption[Compression test parameters]{Compression test parameters \cite{Deuch_phd_thesis}: a) setup; b) specimen dimensions.}\label{obr:test_param}
 \end{figure}
 
 \begin{figure}[h!]
@@ -28,7 +29,7 @@ To verify the proper implementation and to check the ability of Drucker-Prager m
 	\caption[Compresion tests]{Compression tests compared to the real specimen result \cite{Deuch_phd_thesis}}\label{obr:Compresion_2d}
 \end{figure}
 
-The numerical results, obtained for different material parameters, are compared to the experimental data \ref{obr:Compresion_test} in Fig. \ref{obr:Compresion_2d}. The red line stands for the Drucker-Prager model, where $M_{JP}$ is computed according to Eq. (\ref{eq:f_Mjp_30}), the orange line represents the use of Eq. (\ref{eq:f_Mjp_-30}) and the purple line corresponds to $M_{JP}$ calculated according to Eq. (\ref{eq:f_Mjp_i}). All these simulations assume the parameters presented above, the associated flow-rule is also employed, i.e. $\psi=\phi$. The remaining simulations assume the evolution of cohesion with respect to $E_d^{pl}$ (hardening). The response for the evolution defined by $c=20\mathrm{MPa}$ for $E_d^{pl}=0$ and $c=40\mathrm{MPa}$ for $E_d^{pl}=0.05$ is represented by the green line in Fig. \ref{obr:Compresion_2d}. The updated evolution characterized by $c=15\mathrm{MPa}$ for $E_d^{pl}=0$ and $c=60\mathrm{MPa}$ for $E_d^{pl}=0.15$ is utilized to match the experimental data (light blue line). As can be seen, if the hardening is assumed, the numerical simulation adequately matches the experimental data. However, it has to be mentioned that the final conclusions cannot be drawn yet since only one loading scenario is utilized. To properly characterize the model suitability for studied thermoset polymers, additional experimental data are needed.  As mentioned in \ref{obr:Compresion_test}, the extension of Drucker-Prager model by Rankine failure criterion or compressive cap. 
+The numerical results, obtained for different material parameters, are compared to the experimental data \cite{Deuch_phd_thesis} in Fig. \ref{obr:Compresion_2d}. The red line stands for the Drucker-Prager model, where $M_{JP}$ is computed according to Eq. (\ref{eq:f_Mjp_30}), the orange line represents the use of Eq. (\ref{eq:f_Mjp_-30}) and the purple line corresponds to $M_{JP}$ calculated according to Eq. (\ref{eq:f_Mjp_i}). All these simulations assume the parameters presented above, the associated flow-rule is also employed, i.e. $\psi=\phi$. The remaining simulations assume the evolution of cohesion with respect to $E_d^{pl}$ (hardening). The response for the evolution defined by $c=20\mathrm{MPa}$ for $E_d^{pl}=0$ and $c=40\mathrm{MPa}$ for $E_d^{pl}=0.05$ is represented by the green line in Fig. \ref{obr:Compresion_2d}. The updated evolution characterized by $c=15\mathrm{MPa}$ for $E_d^{pl}=0$ and $c=60\mathrm{MPa}$ for $E_d^{pl}=0.15$ is utilized to match the experimental data (light blue line). As can be seen, if the hardening is assumed, the numerical simulation adequately matches the experimental data. However, it has to be mentioned that the final conclusions cannot be drawn yet since only one loading scenario is utilized. To properly characterize the model suitability for studied thermoset polymers, additional experimental data are needed.  As mentioned in \cite{Deuch_phd_thesis}, the extension of Drucker-Prager model by Rankine failure criterion or compressive cap. 
 
 Figs. \ref{obr:Compresion_parameters} – \ref{obr:Compresion_total_strain} show the distribution of model parameters, internal model variables and strains for the relative elongation $\Delta L/L = …$ of the material model with the hardening ($c=15$\,MPa for $E_d^{pl}=0$ and $c=60$\,MPa for $E_d^{pl}=0.15$ ). Fig. \ref{obr:Compresion_parameters} clearly demonstrate the prescribe constant value of friction angle, distribution of deviatoric plastic strain measure and corresponding cohesion. The plastic and total strain components with respect to global coordinate system (z-axis is the axis of symmetry) are shown in Figs. \ref{obr:Compresion_plastic_srain} and \ref{obr:Compresion_total_strain}, respectively. 
 
@@ -68,7 +69,7 @@ To verify the curing model already implemented in MARS solver, the experiment pr
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.9\textwidth]{obrazky/curing_temperature.jpg}
+	\includegraphics[width=0.9\textwidth]{obrazky/curing_temperature_t200.jpg}
 	\caption[Epoxy cube]{Epoxy cube at time $t=200~s$ (center slice): a) temperature; b) curing degree.}\label{obr:Curing_cube}
 \end{figure}
 

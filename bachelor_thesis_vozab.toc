@@ -20,7 +20,7 @@
 \contentsline {subsubsection}{\numberline {3.2.2}Hardening and softening modulus}{26}{subsubsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.3}Calculation procedure and implementation}{28}{subsubsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.4}Apex problem}{31}{subsubsection.3.2.4}
-\contentsline {subsection}{\numberline {3.3}Curing model}{32}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.3}Curing model}{33}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Complex material model}{35}{subsection.3.4}
 \contentsline {section}{\numberline {4}Results}{36}{section.4}
 \contentsline {subsection}{\numberline {4.1}Testing of Drucker-Prager model}{36}{subsection.4.1}
